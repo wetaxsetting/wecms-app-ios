@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Expense Approval WeCMSVC-->
+        <scene sceneID="IAz-P5-yY3">
+            <objects>
+                <viewController storyboardIdentifier="ExpenseApprovalWeCMSVC" id="cFc-za-np6" customClass="ExpenseApprovalWeCMSVC" customModule="WABOOKS_iOS_V2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="pYg-KB-LAI">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="JtB-ce-I2R">
+                                <rect key="frame" x="0.0" y="126" width="393" height="638"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="nOR-2B-aMl">
+                                    <size key="itemSize" width="128" height="128"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells/>
+                                <connections>
+                                    <outlet property="dataSource" destination="cFc-za-np6" id="ScU-nZ-x6Z"/>
+                                    <outlet property="delegate" destination="cFc-za-np6" id="8GT-Qf-WWx"/>
+                                </connections>
+                            </collectionView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="50H-BL-CPL" customClass="CommentView" customModule="WABOOKS_iOS_V2" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="764" width="393" height="54"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="54" id="ZCi-Yp-hfT"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0tO-Ml-ufy" customClass="NavigationBar" customModule="WABOOKS_iOS_V2" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="59" width="393" height="67"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="67" id="lcG-cs-3p9"/>
+                                </constraints>
+                            </view>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="s7E-TT-hd4">
+                                <rect key="frame" x="0.0" y="200" width="393" height="214"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="214" id="hZo-yz-5Xq"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="dataSource" destination="cFc-za-np6" id="jbs-zh-0GX"/>
+                                    <outlet property="delegate" destination="cFc-za-np6" id="Mrb-QB-aTa"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="ZbC-Cg-AMe"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="JtB-ce-I2R" firstAttribute="top" secondItem="0tO-Ml-ufy" secondAttribute="bottom" id="2Yw-wk-BEI"/>
+                            <constraint firstItem="s7E-TT-hd4" firstAttribute="top" secondItem="pYg-KB-LAI" secondAttribute="top" constant="200" id="CZl-6U-bLS"/>
+                            <constraint firstItem="ZbC-Cg-AMe" firstAttribute="trailing" secondItem="50H-BL-CPL" secondAttribute="trailing" id="EOx-0j-CBD"/>
+                            <constraint firstItem="s7E-TT-hd4" firstAttribute="trailing" secondItem="ZbC-Cg-AMe" secondAttribute="trailing" id="SaB-VN-liK"/>
+                            <constraint firstItem="ZbC-Cg-AMe" firstAttribute="trailing" secondItem="0tO-Ml-ufy" secondAttribute="trailing" id="TxR-9S-rMg"/>
+                            <constraint firstItem="s7E-TT-hd4" firstAttribute="leading" secondItem="pYg-KB-LAI" secondAttribute="leading" id="YoL-ge-dz2"/>
+                            <constraint firstItem="JtB-ce-I2R" firstAttribute="leading" secondItem="ZbC-Cg-AMe" secondAttribute="leading" id="d99-X6-m9p"/>
+                            <constraint firstItem="50H-BL-CPL" firstAttribute="top" secondItem="JtB-ce-I2R" secondAttribute="bottom" id="dGM-gp-Yps"/>
+                            <constraint firstItem="50H-BL-CPL" firstAttribute="leading" secondItem="ZbC-Cg-AMe" secondAttribute="leading" id="hFW-FE-Zhj"/>
+                            <constraint firstItem="ZbC-Cg-AMe" firstAttribute="trailing" secondItem="JtB-ce-I2R" secondAttribute="trailing" id="j4T-5l-Lfp"/>
+                            <constraint firstItem="50H-BL-CPL" firstAttribute="bottom" secondItem="ZbC-Cg-AMe" secondAttribute="bottom" id="n5T-mV-n8R"/>
+                            <constraint firstItem="0tO-Ml-ufy" firstAttribute="leading" secondItem="ZbC-Cg-AMe" secondAttribute="leading" id="oas-KL-mdP"/>
+                            <constraint firstItem="0tO-Ml-ufy" firstAttribute="top" secondItem="ZbC-Cg-AMe" secondAttribute="top" id="vcZ-Ec-HNu"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="collectionView" destination="JtB-ce-I2R" id="z3t-jO-R6D"/>
+                        <outlet property="commentView" destination="50H-BL-CPL" id="MD0-Ug-x88"/>
+                        <outlet property="commentViewHeightConstraint" destination="ZCi-Yp-hfT" id="AWn-3n-gdB"/>
+                        <outlet property="mentionTableView" destination="s7E-TT-hd4" id="GAq-OO-iB6"/>
+                        <outlet property="mentionTableViewHC" destination="hZo-yz-5Xq" id="ibf-8A-yRA"/>
+                        <outlet property="mentionTableViewTopContraint" destination="CZl-6U-bLS" id="xws-2r-48C"/>
+                        <outlet property="navigationBar" destination="0tO-Ml-ufy" id="oOe-q3-And"/>
+                        <outlet property="navigationBarHeightConstraint" destination="lcG-cs-3p9" id="7Ck-2h-07M"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cKP-tm-1c2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="135.1145038167939" y="3.5211267605633805"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

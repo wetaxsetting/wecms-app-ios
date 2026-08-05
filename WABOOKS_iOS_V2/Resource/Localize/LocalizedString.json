@@ -1,0 +1,2138 @@
+{
+    "find_password": {
+        "en": "Find Password",
+        "vi": "Tìm mật khẩu"
+    },
+    "select_a_contact": {
+        "en": "Select a Contact",
+        "vi": "Chọn trong liên hệ"
+    },
+    "search_contact": {
+        "en": "Search Contact",
+        "vi": "Tìm liên hệ"
+    },
+    "no_country_found": {
+        "en": "No Country Found.",
+        "vi": "Không tìm thấy quốc gia"
+    },
+    "no_contact_found": {
+        "en": "No Contact Found.",
+        "vi": "Không tìm thấy thông tin"
+    },
+    "select_a_country": {
+        "en": "Select a Country",
+        "vi": "Chọn quốc gia"
+    },
+    "search_country": {
+        "en": "Search Country",
+        "vi": "Tìm quốc gia"
+    },
+    "enter_new_password": {
+        "en": "Enter New Password",
+        "vi": "Nhập mật khẩu mới"
+    },
+    "enter_confirm_password": {
+        "en": "Enter Confirm Password",
+        "vi": "Xác nhận mật khẩu"
+    },
+    "password_must_be": {
+        "en": "Password must be :",
+        "vi": "Mật khẩu cần có :"
+    },
+    "at_lease_10_characters": {
+        "en": "•   At least 10 characters",
+        "vi": "•   Ít nhất 10 chữ số"
+    },
+    "include_alphabets_numbers_and_special_characters": {
+        "en": "•   Include alphabets, numbers, and special \n     characters",
+        "vi": "•   Bao gồm chữ, số và ký tự đặc biệt"
+    },
+    "exclude_some_special_characters": {
+        "en": "•   Exclude +, %, #, &, ’, ”, \\\\, <, >",
+        "vi": "•   Không nhập các ký tự +, %, #, &, ’, ”, \\\\, <, >"
+    },
+    "id_found": {
+        "en": "ID Found",
+        "vi": "Kết quả ID tìm được"
+    },
+    "id": {
+        "en": "ID:",
+        "vi": "ID:"
+    },
+    "password_reset": {
+        "en": "Password Reset",
+        "vi": "Đặt lại mật khẩu"
+    },
+    "password_changed": {
+        "en": "Password Changed",
+        "vi": "Mật khẩu đã được thay đổi"
+    },
+    "ids_that_match_your_information": {
+        "en": "IDs that match your information",
+        "vi": "ID phù hợp với thông tin của bạn"
+    },
+    "password_is_too_short": {
+        "en": "Password is too short",
+        "vi": "Mật khẩu quá ngắn"
+    },
+    "address_1": {
+        "en": "Address 1",
+        "vi": "Địa chỉ 1"
+    },
+    "address_2": {
+        "en": "Address 2",
+        "vi": "Địa chỉ 2"
+    },
+    "city_state": {
+        "en": "City/State",
+        "vi": "Tỉnh/ Thành phố"
+    },
+    "country": {
+        "en": "Country",
+        "vi": "Quốc gia"
+    },
+    "enter_address_1": {
+        "en": "Enter Address 1",
+        "vi": "Nhập địa chỉ 1"
+    },
+    "enter_address_2": {
+        "en": "Enter Address 2 (Optional)",
+        "vi": "NHập địa chỉ 2 ( tùy chọn )"
+    },
+    "enter_city_State": {
+        "en": "Enter City/State",
+        "vi": "Nhập Tỉnh/ Thành phố"
+    },
+    "mismatched_password": {
+        "en": "Mismatched Password",
+        "vi": "Mật khẩu không đúng"
+    },
+    "new_password_has_been_reset_successfully": {
+        "en": "New Password has been reset successfully. Please try login again.",
+        "vi": "Đặt lại mật khẩu thành công. Vui lòng đăng nhập lại."
+    },
+    "you_can_now_log_in_with_the_new_password": {
+        "en": "You can now log in with the new password.",
+        "vi": "Bây giờ bạn có thể đăng nhập bằng mật khẩu mới."
+    },
+    "the_confirm_password_does_not_match": {
+        "en": "Confirm Password does not match",
+        "vi": "Mật khẩu xác nhận không khớp."
+    },
+    "passwords_do_not_match": {
+        "en": "Password does not match.",
+        "vi": "Mật khẩu không chính xác."
+    },
+    "attempts": {
+        "en": "attempts",
+        "vi": "lần"
+    },
+    "please_check_and_try_again": {
+        "en": "Please check and try again.",
+        "vi": "Vui lòng thử lại."
+    },
+    "recover_your_forgotten_password": {
+        "en": "Recover your forgotten password",
+        "vi": "Khôi phục mật khẩu"
+    },
+    "recover_your_forgotten_id": {
+        "en": "Recover your forgotten ID",
+        "vi": "Khôi phục ID"
+    },
+    "log_in": {
+        "en": "Log In",
+        "vi": "Đăng nhập"
+    },
+    "forget_id": {
+        "en": "Forgot ID",
+        "vi": "Quên ID"
+    },
+    "get_code": {
+        "en": "Send",
+        "vi": "gửi"
+    },
+    "forget_password": {
+        "en": "Forgot Password",
+        "vi": "Quên mật khẩu"
+    },
+    "complete": {
+        "en": "Complete",
+        "vi": "Hoàn thành"
+    },
+    "cancel_btn": {
+        "en": "Cancel",
+        "vi": "Hủy"
+    },
+    "cancel": {
+        "en": "Cancel",
+        "vi": "Hủy"
+    },
+    "uploaded_fail": {
+        "en": "Upload Failed",
+        "vi": "Tải lên thất bại"
+    },
+    "uploaded_fail_descr": {
+        "en": "Error occured while uploading the file. \nPlease try again.",
+        "vi": "Đã phát sinh lỗi trong quá trình tải lên tệp. \nVui lòng thử lại."
+    },
+    "password": {
+        "en": "Password",
+        "vi": "Mật khẩu"
+    },
+    "please_select_a_company": {
+        "en": "Please select a company.",
+        "vi": "Vui lòng chọn công ty"
+    },
+    "please_try_login_again": {
+        "en": "Please try login again.",
+        "vi": "Vui lòng đăng nhập lại."
+    },
+    "menu": {
+        "en": "Menu",
+        "vi": "Menu"
+    },
+    "name": {
+        "en": "Name",
+        "vi": "Tên"
+    },
+    "search_name": {
+        "en": "Name",
+        "vi": "Biệt danh"
+    },
+    "mobile_no": {
+        "en": "Mobile No",
+        "vi": "Số điện thoại di động"
+    },
+    "phone": {
+        "en": "Phone:",
+        "vi": "Số điện thoại:"
+    },
+    "reset_password": {
+        "en": "Reset password",
+        "vi": "Cài đặt lại mật khẩu"
+    },
+    "you_can_take_a_photo_or_select_it_right_away_from_your_gallery": {
+        "en": "You can take a photo or select it right away from your gallery.",
+        "vi": "Bạn có thể chụp ảnh hoặc chọn ngay từ thư viện ảnh của mình."
+    },
+    "camera": {
+        "en": "Camera",
+        "vi": "Máy ảnh"
+    },
+    "this_week": {
+        "en": "This Week",
+        "vi": "Tuần này"
+    },
+    "add_detail": {
+        "en": "Add Detail",
+        "vi": "Thêm chi tiết"
+    },
+    "photo_saved": {
+        "en": "Photo Saved",
+        "vi": "Ảnh đã lưu"
+    },
+    "submit_a_receipt": {
+        "en": "Submit a Receipt",
+        "vi": "Gửi biên lai"
+    },
+    "submit": {
+        "en": "Submit",
+        "vi": "Gửi"
+    },
+    "subscribed_on": {
+        "en": "Subscribed on",
+        "vi": "Đã đăng ký vào"
+    },
+    "save_receipt": {
+        "en": "Save Receipt",
+        "vi": "Lưu biên lai"
+    },
+    "currency": {
+        "en": "Currency",
+        "vi": "Đơn vị tiền"
+    },
+    "description": {
+        "en": "Description",
+        "vi": "Nội dung"
+    },
+    "photo": {
+        "en": "Photo",
+        "vi": "Ảnh"
+    },
+    "receipt_details": {
+        "en": "Receipt Details",
+        "vi": "Chi tiết biên lai"
+    },
+    "amount": {
+        "en": "Amount",
+        "vi": "Số tiền"
+    },
+    "user": {
+        "en": "User",
+        "vi": "Người sử dụng"
+    },
+    "gallery": {
+        "en": "Gallery",
+        "vi": "Bộ sưu tập"
+    },
+    "edit": {
+        "en": "Edit",
+        "vi": "Chỉnh sửa"
+    },
+    "delete": {
+        "en": "Delete",
+        "vi": "Xóa"
+    },
+    "merchant": {
+        "en": "Merchant",
+        "vi": "Nhà cung cấp"
+    },
+    "edit_a_receipt": {
+        "en": "Edit a Receipt",
+        "vi": "Sửa biên lai"
+    },
+    "settings": {
+        "en": "Settings",
+        "vi": "Cài đặt"
+    },
+    "profile": {
+        "en": "Profile",
+        "vi": "Hồ sơ"
+    },
+    "employee_info": {
+        "en": "Employee Info",
+        "vi": "Thông tin nhân viên"
+    },
+    "input_item": {
+        "en": "Input Item",
+        "vi": "Mục nhập"
+    },
+    "version": {
+        "en": "App Version",
+        "vi": "Phiên bản app"
+    },
+    "merchant_where_to_use": {
+        "en": "Contacts",
+        "vi": "Liên hệ"
+    },
+    "purpose_account": {
+        "en": "Purpose",
+        "vi": "Mục đích"
+    },
+    "select_a_purpose": {
+        "en": "Select a Purpose",
+        "vi": "Chọn mục đích"
+    },
+    "select_a_advance_ledger": {
+        "en": "Select a Advance Ledger",
+        "vi": "Chọn sổ cái tạm ứng"
+    },
+    "all_advance_ledger": {
+        "en": "All Advance Ledger",
+        "vi": "Chọn tất cả sổ cái tạm ứng"
+    },
+    "person_in_charge_OOO": {
+        "en": "Person in Charge - %@",
+        "vi": "Người phụ trách - %@"
+    },
+    "search_advance_ledger": {
+        "en": "Search Advance Ledger",
+        "vi": "Tìm kiếm sổ cái"
+    },
+    "no_advance_ledger_found": {
+        "en": "No Advance Ledger Found.",
+        "vi": "Không tìm thấy sổ cái tạm ứng"
+    },
+    "payment_method": {
+        "en": "Payment Method",
+        "vi": "Phương thức thanh toán"
+    },
+    "please_select_payment_method": {
+        "en": "Please select payment method",
+        "vi": "Vui lòng chọn phương thức thanh toán"
+    },
+    "none": {
+        "en": "None",
+        "vi": "Không có"
+    },
+    "cash": {
+        "en": "Cash",
+        "vi": "Tiền mặt"
+    },
+    "cheque": {
+        "en": "Cheque",
+        "vi": "Kiểm tra"
+    },
+    "transfer": {
+        "en": "Transfer",
+        "vi": "Chuyển khoản"
+    },
+    "advance": {
+        "en": "Advance",
+        "vi": "Nâng cao"
+    },
+    "debit_date": {
+        "en": "Debit Date",
+        "vi": "Ngày thực hiện giao dịch"
+    },
+    "bank": {
+        "en": "Bank",
+        "vi": "Ngân hàng"
+    },
+    "bank_transfer": {
+        "en": "Bank Transfer",
+        "vi": "Chuyển khoản bằng ngân hàng"
+    },
+    "enter_cheque_no": {
+        "en": "Enter Cheque No.",
+        "vi": "Nhập số sổ kiểm tra"
+    },
+    "import_transaction": {
+        "en": "Import Transaction",
+        "vi": "Nhập giao dịch"
+    },
+    "import": {
+        "en": "Import",
+        "vi": "Nhập khẩu"
+    },
+    "transaction": {
+        "en": "Transaction",
+        "vi": "Giao dịch"
+    },
+    "please_select_transactions_date": {
+        "en": "Please select transactions date",
+        "vi": "Vui lòng chọn ngày giao dịch"
+    },
+    "match": {
+        "en": "Match",
+        "vi": "kết hợp"
+    },
+    "date": {
+        "en": "Date",
+        "vi": "Ngày sử dụng"
+    },
+    "transactions": {
+        "en": "Transactions",
+        "vi": "Giao dịch"
+    },
+    "advances_ledger": {
+        "en": "Advances Ledger",
+        "vi": "Sổ cái tạm ứng"
+    },
+    "paid_with_OOO": {
+        "en": "Paid by %@",
+        "vi": "Đã thanh toán với %@"
+    },
+    "OOO_cheque_number_is_OOO": {
+        "en": "%@ - Cheque Number is %@",
+        "vi": "%@ - Sổ cần kiểm tra %@"
+    },
+    "no_matching_transaction_found": {
+        "en": "No matching transaction found.",
+        "vi": "Không tìm thấy giao dịch phù hợp"
+    },
+    "OOO_OOO_match": {
+        "en": "%@ %@ Match",
+        "vi": "%@ %@ Kết hợp"
+    },
+    "select": {
+        "en": "Select",
+        "vi": "Chọn"
+    },
+    "recent": {
+        "en": "Recent",
+        "vi": "Gần đây"
+    },
+    "all_purpose": {
+        "en": "All Purposes",
+        "vi": "Toàn bộ mục đích"
+    },
+    "ok": {
+        "en": "OK",
+        "vi": "Xác nhận"
+    },
+    "enter_id": {
+        "en": "Enter ID",
+        "vi": "Nhập ID"
+    },
+    "enter_id_email": {
+        "en": "Enter ID (Email)",
+        "vi": "Nhập Email"
+    },
+    "enter_password": {
+        "en": "Enter password",
+        "vi": "Nhập mật khẩu"
+    },
+    "process_a_receipt_picture_easy": {
+        "en": "Process a Receipt's \nPicture Easy",
+        "vi": "Xử lý ảnh biên lai dễ dàng"
+    },
+    "take_a_picture_of_receipt_add_notes_and_save_and_one": {
+        "en": "Take a Picture of Receipt, Add Notes, \nand Save, and Done.",
+        "vi": "Chụp ảnh biên lai, thêm ghi chú, lưu lại và hoàn tất."
+    },
+    "if_you_use_the_auto_complete_function_of_the_keyboard_here_may_be_a_space_automatically_entered_after_the_id": {
+        "en": "If you use the auto-complete function of the keyboard, there may be a space automatically entered after the ID.",
+        "vi": "Nếu bạn sử dụng chức năng tự động hoàn thành của bàn phím, có thể có khoảng trắng được tự động thêm vào sau ID."
+    },
+    "please_enter_the_password": {
+        "en": "Please enter the password.",
+        "vi": "Vui lòng nhập mật khẩu."
+    },
+    "please_enter_the_password_again": {
+        "en": "Please enter the password again.",
+        "vi": "Vui lòng nhập lại mật khẩu."
+    },
+    "the_password_should_be_longer_than_10_characters_including_alphabet_numeric_and_special_characters": {
+        "en": "At least 10 characters long in English and number with special characters. (Case sensitive and exclude +, %, #, &, ‘, “, \\, <, >)",
+        "vi": "Ít nhất 10 kí tự, bao gồm chữ in hoa và thường, kí tự đặc biệt ( loại trừ +, %, #, &,‘, “, \\, <, >)"
+    },
+    "password_does_not_match_with_confirm_password": {
+        "en": "Password does not match with Confirm Password.",
+        "vi": "Mật khẩu không khớp với mật khẩu xác nhận."
+    },
+    "password_does_not_match": {
+        "en": "Password does not match",
+        "vi": "Mật khẩu không hợp lệ"
+    },
+    "please_enter_descr": {
+        "en": "Description",
+        "vi": "Nội dung"
+    },
+    "purchases_of_folder": {
+        "en": "Purchases of file folder, MonaMibol pen, glue, stapler, clip, knifeboard, knife and ruler",
+        "vi": "Mua hồ sơ, bút MonaMibol, keo dán, máy bấm kim, kẹp, bảng cắt, dao và thước"
+    },
+    "you_cannot_edit_a_receipt": {
+        "en": "You cannot edit a receipt that has already been submitted.",
+        "vi": "Bạn không thể chỉnh sửa biên lai đã được gửi."
+    },
+    "would_you_like_to_delete_the_receipt": {
+        "en": "Are you sure want to delete the registered receipt?",
+        "vi": "Bạn có chắc chắn muốn xóa biên lai đã đăng ký không?"
+    },
+    "are_you_sure_you_want_to_permanently_delete_the_registered_receipt": {
+        "en": "Are you sure you want to permanently delete the registered receipt?",
+        "vi": "Bạn có chắc muốn xóa vĩnh viễn biên lai này?"
+    },
+    "are_you_sure_want_to_delete_the_receipt": {
+        "en": "Are you sure want to delete the receipt?\n This can't be recovered.",
+        "vi": "Bạn có chắc muốn xóa biên lai này?\n Biên lai đã xóa không thể khôi phục."
+    },
+    "delete_receipt": {
+        "en": "Delete Receipt",
+        "vi": "Xóa biên lai"
+    },
+    "you_will_not_be_able_to_restore_the_delete_receipts": {
+        "en": "Deleted receipts cannot be recovered.",
+        "vi": "Biên lai đã xóa không thể khôi phục."
+    },
+    "you_cannot_delete_a_receipt": {
+        "en": "You cannot delete a receipt that has already been submitted.",
+        "vi": "Bạn không thể xóa biên lai đã được gửi."
+    },
+    "click_to_add_an_image": {
+        "en": "Click to add an image.",
+        "vi": "Nhấn để thêm hình ảnh."
+    },
+    "set_the_input_items_when_registering_a_receipt": {
+        "en": "Set the input items when registering a receipt.",
+        "vi": "Khi thêm biên lai ,vui lòng thiết lập mục nhập"
+    },
+    "enter_the_amount_on_the_proof_for_expense": {
+        "en": "Enter the amount on the proof of expenses.",
+        "vi": "Vui lòng nhập chi phí."
+    },
+    "enter_the_name_of_merchant_for_expense": {
+        "en": "Enter the name of merchant for expenses.",
+        "vi": "Nhập tên nhà cung cấp cho khoản chi phí."
+    },
+    "use_a_transaction_time_separately": {
+        "en": "Use a Transaction Time separately.",
+        "vi": "Sử dụng thời gian giao dịch riêng"
+    },
+    "use_a_advance_ledger_input_for_the_submission": {
+        "en": "Use a Purpose input for submission",
+        "vi": "Vui lòng chọn mục đích để nộp"
+    },
+    "use_a_user_input_for_the_submission": {
+        "en": "Use a User input for submission",
+        "vi": "Vui lòng chọn người sử dụng để nộp"
+    },
+    "year": {
+        "en": "Year",
+        "vi": "năm"
+    },
+    "month": {
+        "en": "Month",
+        "vi": "tháng"
+    },
+    "day": {
+        "en": "Day",
+        "vi": "Ngày"
+    },
+    "06": {
+        "en": "June",
+        "vi": "06"
+    },
+    "28th": {
+        "en": "28th",
+        "vi": "28th"
+    },
+    "Mon": {
+        "en": "Mon",
+        "vi": "Thứ hai"
+    },
+    "Tue": {
+        "en": "Tue",
+        "vi": "Thứ ba"
+    },
+    "Wed": {
+        "en": "Wed",
+        "vi": "Thứ tư"
+    },
+    "Thu": {
+        "en": "Thu",
+        "vi": "Thứ năm"
+    },
+    "Fri": {
+        "en": "Fri",
+        "vi": "Thứ sáu"
+    },
+    "fri": {
+        "en": "Fri",
+        "vi": "Thứ sáu"
+    },
+    "Sat": {
+        "en": "Sat",
+        "vi": "Thứ bảy"
+    },
+    "am": {
+        "en": "a.m",
+        "vi": "Sáng"
+    },
+    "pm": {
+        "en": "p.m",
+        "vi": "Chiều"
+    },
+    "search": {
+        "en": "Search",
+        "vi": "Tìm kiếm"
+    },
+    "search_purpose": {
+        "en": "Search Purpose",
+        "vi": "Tra cứu mục đích"
+    },
+    "please_enter_the_description": {
+        "en": "Please enter the description.",
+        "vi": "Vui lòng nhập mô tả."
+    },
+    "language": {
+        "en": "Language",
+        "vi": "Ngôn ngữ"
+    },
+    "more": {
+        "en": "More",
+        "vi": "Thêm"
+    },
+    "attached_photo": {
+        "en": "Attached photo ",
+        "vi": "Ảnh đính kèm"
+    },
+    "back": {
+        "en": "Back",
+        "vi": "Trở lại"
+    },
+    "choose": {
+        "en": "Choose",
+        "vi": "Chọn"
+    },
+    "receipt": {
+        "en": "Receipt",
+        "vi": "Biên lai"
+    },
+    "notice": {
+        "en": "Notice",
+        "vi": "Thông báo"
+    },
+    "close": {
+        "en": "Close",
+        "vi": "Đóng"
+    },
+    "comfirm": {
+        "en": "Confirm",
+        "vi": "Xác nhận"
+    },
+    "enter_phone_number": {
+        "en": "Enter Phone Number",
+        "vi": "Nhập số điện thoại"
+    },
+    "no": {
+        "en": "No",
+        "vi": "Không"
+    },
+    "yes": {
+        "en": "Yes",
+        "vi": "Có"
+    },
+    "save_in_album": {
+        "en": "Save in album",
+        "vi": "Lưu vào album"
+    },
+    "after_confirm_ID_and_Password_please_log_in_again_with_ID": {
+        "en": "After confirm ID and Password please log in again with ID",
+        "vi": "After confirm ID and Password please log in again with ID"
+    },
+    "log_out": {
+        "en": "Log Out",
+        "vi": "Đăng xuất"
+    },
+    "select_the_transaction_currency_for_expenses.": {
+        "en": "Select transaction currency for expenses.",
+        "vi": "Vui lòng chọn đơn vị tiền."
+    },
+    "details": {
+        "en": "Details",
+        "vi": "Chi tiết"
+    },
+    "input": {
+        "en": "Input",
+        "vi": "Nhập liệu"
+    },
+    "please_enter_a_user_name.": {
+        "en": "Please enter a user name.",
+        "vi": "Vui lòng nhập tên người dùng."
+    },
+    "mg_service_reason": {
+        "en": "System upgrade is in progress for a stable service. The service might be interrupted during the upgrade.",
+        "vi": "Đang tiến hành nâng cấp hệ thống để cung cấp dịch vụ ổn định. Việc sử dụng dịch vụ bị giới hạn trong quá trình nâng cấp."
+    },
+    "main_submit_success_msg": {
+        "en": "Receipt saved",
+        "vi": "Đã lưu biên lai"
+    },
+    "main_update_receipt_msg": {
+        "en": "Receipt has been saved.",
+        "vi": "Biên lai đã được lưu."
+    },
+    "main_delete_receipt_msg": {
+        "en": "Receipt deleted",
+        "vi": "Đã xóa biên lai"
+    },
+    "no_notification_found": {
+        "en": "No notification found.",
+        "vi": "Không tìm thấy thông báo."
+    },
+    "hour_ago": {
+        "en": "h ago",
+        "vi": "giờ trước"
+    },
+    "now": {
+        "en": "Now",
+        "vi": "Bây giờ"
+    },
+    "minute_ago": {
+        "en": "%@ minute(s) ago",
+        "vi": "%@ phút trước"
+    },
+    "you_can_select_up_to_(OO)_photos_at_once.": {
+        "en": "You can select up to %@ Photos at once.",
+        "vi": "Bạn có thể chọn tối đa %@ ảnh cùng một lúc."
+    },
+    "view": {
+        "en": "View",
+        "vi": "Xem"
+    },
+    "connection_is_unstable": {
+        "en": "No Network Connection",
+        "vi": "Không có kết nối mạng"
+    },
+    "connection_is_unstable_please_try_again_later": {
+        "en": "Please check your internet connection and try again.",
+        "vi": "Kết nối mạng bất ổn. Vui lòng thử lại"
+    },
+    "try_again": {
+        "en": "Try Again",
+        "vi": "Vui lòng thử lại"
+    },
+    "en": {
+        "en": "English",
+        "vi": "English"
+    },
+    "ko": {
+        "en": "한국어",
+        "vi": "한국어"
+    },
+    "km": {
+        "en": "ភាសាខ្មែរ",
+        "vi": "ភាសាខ្មែរ"
+    },
+    "vi": {
+        "en": "Tiếng Việt",
+        "vi": "Tiếng Việt"
+    },
+    "notification": {
+        "en": "Notification",
+        "vi": "Thông báo"
+    },
+    "error_occurred_during_process": {
+        "en": "Error occurred during process",
+        "vi": "Đã phát sinh lỗi trong quá trình xử lý."
+    },
+    "the_photo_has_been_saved": {
+        "en": "The Photo has been saved.",
+        "vi": "Ảnh đã được lưu."
+    },
+    "the_date_of_use_cannot_be_a_future_date": {
+        "en": "The date of use cannot be a future date.",
+        "vi": "Ngày sử dụng không thể là ngày trong tương lai."
+    },
+    "register_invoice": {
+        "en": "Register Receipt",
+        "vi": "Thêm biên lai"
+    },
+    "take_a_photo_or_choose_from_gallery": {
+        "en": "Take a photo or choose from a gallery",
+        "vi": "Chụp ảnh hoặc chọn trong bộ sưu tập"
+    },
+    "take_a_photo": {
+        "en": "Take a Photo",
+        "vi": "Chụp ảnh"
+    },
+    "choose_from_gallery": {
+        "en": "Choose from Gallery",
+        "vi": "Chọn trong bộ sưu tập"
+    },
+    "recently_activities": {
+        "en": "Recently Activities",
+        "vi": "Hoạt động gần đây"
+    },
+    "add_content": {
+        "en": "Add Content",
+        "vi": "Thêm nội dung"
+    },
+    "memo": {
+        "en": "Memo",
+        "vi": "Ghi chú"
+    },
+    "attachment": {
+        "en": "Attachment",
+        "vi": "Tập tin đính kèm"
+    },
+    "attachment_file": {
+        "en": "Attach File",
+        "vi": "Tập tin đính kèm"
+    },
+    "enter_name": {
+        "en": "Enter Name",
+        "vi": "Tên"
+    },
+    "enter_your_name": {
+        "en": "Enter your Name",
+        "vi": "Nhập tên của bạn"
+    },
+    "enter_username": {
+        "en": "Enter Username",
+        "vi": "Nhập tên người dùng"
+    },
+    "verification": {
+        "en": "Verification",
+        "vi": "xác minh"
+    },
+    "choose_a_display_language": {
+        "en": "Please select a display language",
+        "vi": "Vui lòng chọn ngôn ngữ hiển thị"
+    },
+    "no_invoice_registered": {
+        "en": "No Receipts Registered",
+        "vi": "Không có biên lai đã đăng kí"
+    },
+    "tap_on_button_to_add": {
+        "en": "Tap on '+' button to add and submit the expense receipts.",
+        "vi": "Để thêmchi phí hóa đơn, Vui lòng ấn phím '+'"
+    },
+    "tap_on": {
+        "en": "Tap on ",
+        "vi": "Để thêm hóa đơn chi phí, Vui lòng ấn phím"
+    },
+    "button_to_add": {
+        "en": " button to add ",
+        "vi": " \nNhấn nút để thêm"
+    },
+    "and_submit_expense_receipts": {
+        "en": "and submit the expense receipts.",
+        "vi": ""
+    },
+    "good_day_WABOOKS_user.": {
+        "en": "Good Day, \nWelcome to WABOOKS.",
+        "vi": "Xin chào, \nchào mừng đến với WABOOKS."
+    },
+    "good_day_Products_user.": {
+        "en": "Good Day, \nWelcome to our Products.",
+        "vi": "Xin chào, \nchào mừng đến với WABOOKS."
+    },
+    "good_day_WeCMS_user.": {
+        "en": "Good Day, \nWelcome to WeCMS.",
+        "vi": "Xin chào, \nchào mừng đến với WeCMS."
+    },
+    "select_language_descr": {
+        "en": "Please select a display language now \nor change it later in the app's Settings.",
+        "vi": "Vui lòng chọn ngôn ngữ hoặc thay đổi sau ở cài đặt."
+    },
+    "log_in_with_WABOOKS": {
+        "en": "Log In with WABOOKS",
+        "vi": "Log In with WABOOKS"
+    },
+    "done": {
+        "en": "Done",
+        "vi": "Thêm"
+    },
+    "are_you_sure_want_to_delete_the_attached_image": {
+        "en": "Are you sure you want to delete the attachment?",
+        "vi": "Bạn có chắc chắn muốn xóa tệp đính kèm không?"
+    },
+    "delete_attachment": {
+        "en": "Delete Attachment",
+        "vi": "Xóa tệp đính kèm"
+    },
+    "main_logout_msg": {
+        "en": "Are you sure you want to log out?",
+        "vi": "Bạn đã chắc chắn muốn thoát ra?"
+    },
+    "advance_ledger": {
+        "en": "Advance Ledger",
+        "vi": "Số tạm ứng"
+    },
+    "receipt_no": {
+        "en": "Receipt No.",
+        "vi": "Số biên lai"
+    },
+    "inv_number": {
+        "en": "EXP-YYYYMMDDNNN",
+        "vi": "EXP-YYYYMMDDNNN"
+    },
+    "empty_notification": {
+        "en": "You're on Top",
+        "vi": "Bạn đang đứng đầu"
+    },
+    "empty_notification_descr": {
+        "en": "There's no notification yet.",
+        "vi": "Không có thông báo mới"
+    },
+    "allow_photos": {
+        "en": "Allow Photos",
+        "vi": "Cho phép thêm ảnh"
+    },
+    "select_more_images_or_enable_library_access": {
+        "en": "Select More Images or Enable Library Access.",
+        "vi": "Chụp ảnh hoặc chọn trong bộ sưu tập"
+    },
+    "select_more_mages": {
+        "en": "Select More Photos",
+        "vi": "Thêm ảnh"
+    },
+    "enable_library_access": {
+        "en": "Enable Library Access",
+        "vi": "Truy cập bộ sưu tập ảnh"
+    },
+    "this_allows_WABOOKS_to_acess_your_gallery_for_creating_a_receipt": {
+        "en": "This allows WABOOKS to acess your gallery for creating a receipt.",
+        "vi": "Điều này sẽ cho phép bạn truy cập thư viện WABOOKS và tạo biên lai."
+    },
+    "the_auth_code_does_not_match": {
+        "en": "Auth code does not match.",
+        "vi": "Mã bảo mật không đúng"
+    },
+    "the_auth_code_does_has_been_verify": {
+        "en": "The auth code does has been verify.",
+        "vi": "Mã bảo mật đúng"
+    },
+    "auth_code_verified": {
+        "en": "Auth code verified.",
+        "vi": "Mã bảo mật đúng"
+    },
+    "code_does_not_match": {
+        "en": "Code doesn't match",
+        "vi": "Mã không tương thích"
+    },
+    "enter_auth_code": {
+        "en": "Enter Auth Code",
+        "vi": "nhập mã xác thực"
+    },
+    "we've_just_sent_the_code_to_your_phone_number": {
+        "en": "We've just sent the code to your phone number",
+        "vi": "Chúng tôi vừa gửi mã đến số điện thoại của bạn"
+    },
+    "i_didn't_received_a_code": {
+        "en": "I didn't receive a code!",
+        "vi": "tôi không nhận được mã"
+    },
+    "resend_code": {
+        "en": "Resend Code",
+        "vi": "gửi lại mã"
+    },
+    "type_of_supplier": {
+        "en": "Type of Supplier",
+        "vi": "Loại hình nhà cung cấp"
+    },
+    "tax_id": {
+        "en": "Tax ID",
+        "vi": "Mã số thuế"
+    },
+    "enter_foreigner": {
+        "en": "Enter Foreigner ID",
+        "vi": "Nhập số đăng kí người nước ngoài"
+    },
+    "enter_national_id": {
+        "en": "Enter National ID",
+        "vi": "Nhập số CMT/CCCD"
+    },
+    "enter_tax_id": {
+        "en": "Enter Tax ID",
+        "vi": "Nhập mã số thuế"
+    },
+    "tax": {
+        "en": "Tax ID",
+        "vi": "Mã số thuế"
+    },
+    "email": {
+        "en": "Email",
+        "vi": "Địa chỉ"
+    },
+    "address": {
+        "en": "Address",
+        "vi": "Địa chỉ"
+    },
+    "add_address": {
+        "en": "Add Address",
+        "vi": "Thêm địa chỉ"
+    },
+    "tel": {
+        "en": "Tel",
+        "vi": "Số điện thoại"
+    },
+    "enter_email": {
+        "en": "Enter Email",
+        "vi": "Nhập email"
+    },
+    "manual": {
+        "en": "Manual",
+        "vi": "bán lẻ"
+    },
+    "manual_input": {
+        "en": "Manual Input",
+        "vi": "Nhập thủ công"
+    },
+    "select_from_contacts": {
+        "en": "Select from Contacts",
+        "vi": "Chọn trong liên hệ"
+    },
+    "pls_select_type_of_supllier": {
+        "en": "Please select the type of supplier",
+        "vi": "Vui lòng chọn kiểu nhà cung cấp"
+    },
+    "taxable_person": {
+        "en": "Taxable Person",
+        "vi": "Người chịu thuế"
+    },
+    "non_taxable_person": {
+        "en": "Non-Taxable Person",
+        "vi": "Người không chịu thuế"
+    },
+    "oversea_company": {
+        "en": "Overseas Company",
+        "vi": "Doanh nghiệp nước ngoài"
+    },
+    "add": {
+        "en": "Add",
+        "vi": "Thêm"
+    },
+    "find_id": {
+        "en": "Find ID",
+        "vi": "Tìm ID"
+    },
+    "recent_activities": {
+        "en": "Recent Activities",
+        "vi": "Hoạt động gần đây"
+    },
+    "no_purpose_found": {
+        "en": "No Purpose Found.",
+        "vi": "Không có mục đích cần tìm"
+    },
+    "your_input_information": {
+        "en": "Your input information",
+        "vi": "Thông tin cần nhập"
+    },
+    "username": {
+        "en": "ឈ្មោះ:",
+        "vi": "Tên:"
+    },
+    "phone_number": {
+        "en": "Phone Number",
+        "vi": "Số điện thoại"
+    },
+    "if_using_the_keyboards_auto_correct_it_may_enter_automatically_a_blank_space_after_an_id": {
+        "en": "If using the keyboard's auto-correct, it may enter automatically a blank space after an ID.",
+        "vi": "Khoảng trắng có thể được nhập tự động sau ID nếu bạn sử dụng tính năng tự động sửa trên bàn phím của."
+    },
+    "the_auth_code_has_sent_to OOO": {
+        "en": "Auth code has sent to %@",
+        "vi": "Mã bảo mật đã gửi về số %@"
+    },
+    "please_enter_the_code_to_find_ID": {
+        "en": "Please enter the code to find ID.",
+        "vi": "Vui lòng kiểm tra và nhập mã bảo mật để tìm lại ID"
+    },
+    "okay": {
+        "en": "Okay",
+        "vi": "Xác nhận"
+    },
+    "wabooks_mobile": {
+        "en": "WABOOKS Mobile",
+        "vi": "WABOOKS Mobile"
+    },
+    "contact": {
+        "en": "Name",
+        "vi": "Liên hệ"
+    },
+    "all_contact": {
+        "en": "All Contacts",
+        "vi": "Toàn bộ liên hệ"
+    },
+    "deposit": {
+        "en": "Deposit",
+        "vi": "Tiền gửi"
+    },
+    "withdrawal": {
+        "en": "Withdrawal",
+        "vi": "Chi phí"
+    },
+    "report": {
+        "en": "Report",
+        "vi": "Báo cáo"
+    },
+    "tap_to_add_image": {
+        "en": "Tap to Add Image",
+        "vi": "Nhấp để thêm ảnh"
+    },
+    "rate_1_usd_khr": {
+        "en": "Rates (1 USD / KHR)",
+        "vi": "Tỷ giá (1 USD / KHR)"
+    },
+    "rate_1_usd_vnd": {
+        "en": "Rates (1 USD / VND)",
+        "vi": "Tỷ giá (1 USD / VND)"
+    },
+    "amt_khr": {
+        "en": "Amount (KHR)",
+        "vi": "Số tiền (KHR)"
+    },
+    "amt_vnd": {
+        "en": "Amount (VND)",
+        "vi": "Số tiền (VND)"
+    },
+    "enter_rate": {
+        "en": "0",
+        "vi": "0"
+    },
+    "coming_soon": {
+        "en": "Coming Soon",
+        "vi": "Vui lòng đợi một lúc"
+    },
+    "update_required": {
+        "en": "Update Required",
+        "vi": "Bắt buộc cập nhật"
+    },
+    "update": {
+        "en": "Update",
+        "vi": "Cập nhật"
+    },
+    "contact_status_of_000": {
+        "en": "Contact status of %@",
+        "vi": "Trạng thái liên hệ %@"
+    },
+    "there_are_new_withdrawal_transactions": {
+        "en": "New withdrawal transaction(s)",
+        "vi": "Giao dịch rút tiền mới"
+    },
+    "there_are_new_deposit_transactions": {
+        "en": "New deposit transaction(s)",
+        "vi": "Giao dịch tiền gửi mới"
+    },
+    "status_of_000": {
+        "en": "Status of %@",
+        "vi": "Tình hình tài chính ngày %@"
+    },
+    "status_of_000_3_deposit": {
+        "en": "Status of %@",
+        "vi": "Tình hình tài chính ngày %@"
+    },
+    "status_of_000_4_withdrawal": {
+        "en": "Status of %@",
+        "vi": "Tình hình tài chính ngày %@"
+    },
+    "save": {
+        "en": "Save",
+        "vi": "Lưu"
+    },
+    "download": {
+        "en": "Download",
+        "vi": "Tải xuống"
+    },
+    "save_a_receipt": {
+        "en": "Add Receipt",
+        "vi": "Thêm Hóa đơn"
+    },
+    "photo_downloading": {
+        "en": "Photo downloading...",
+        "vi": "Đang tải ảnh"
+    },
+    "photo_downloaded": {
+        "en": "Photo downloaded",
+        "vi": "Đã tải xong"
+    },
+    "photo_deleted": {
+        "en": "Photo deleted",
+        "vi": "Ảnh đã bị xóa"
+    },
+    "contacts": {
+        "en": "Contacts",
+        "vi": "Liên hệ"
+    },
+    "급여명세": {
+        "en": "급여명세",
+        "vi": "급여명세"
+    },
+    "credit": {
+        "en": "Credit",
+        "vi": "Ghi có"
+    },
+    "debit": {
+        "en": "Debit",
+        "vi": "Ghi nợ"
+    },
+    "daily_cash": {
+        "en": "Report",
+        "vi": "Báo cáo"
+    },
+    "withholding_tax": {
+        "en": "Withholding Tax",
+        "vi": "Thuế nhà thầu"
+    },
+    "tax_amount": {
+        "en": "Tax Amount",
+        "vi": "Tiền thuế"
+    },
+    "search_withholding_tax": {
+        "en": "Search Withholding Tax",
+        "vi": "Tra cứu thuế nhà thầu"
+    },
+    "all_withholding_tax": {
+        "en": "All Withholding Tax",
+        "vi": "Toàn bộ thuế nhà thầu"
+    },
+    "select_a_withholding_tax": {
+        "en": "Select a Withholding Tax",
+        "vi": "Chọn thuế nhà thầu"
+    },
+    "no_withholding_tax_found": {
+        "en": "No Withholding Tax Found.",
+        "vi": "Không tìm thấy thuế khấu trừ."
+    },
+    "password_does_not_match_please_check_and_try_again": {
+        "en": "Password does not match.\nPlease check and try again.",
+        "vi": "Mật khẩu không đúng. \nVui lòng thử lại."
+    },
+    "password_is_not_valid": {
+        "en": "Password is not valid",
+        "vi": "Mật khẩu không hợp lệ"
+    },
+    "password_must_contain_alphabets_numbers_and_special_characters": {
+        "en": "Password Must Contain alphabets, numbers, and special characters",
+        "vi": "Password Must Contain alphabets, numbers, and special characters"
+    },
+    "please_select_your_language": {
+        "en": "Please select your language",
+        "vi": "Chọn ngôn ngữ"
+    },
+    "wabooks_version": {
+        "en": "WABOOKS Version",
+        "vi": "WABOOKS phiên bản..."
+    },
+    "please_select_wabooks_version": {
+        "en": "Please select WABOOKS Version",
+        "vi": "Chọn phiên bản WABOOKS"
+    },
+    "please_select_we_cms_version": {
+        "en": "Please select WeCMS Version",
+        "vi": "Chọn phiên bản WeCMS"
+    },
+    "wabooks_cambodia": {
+        "en": "WABOOKS Cambodia",
+        "vi": "WABOOKS Cambodia"
+    },
+    "wabooks_vietnam": {
+        "en": "WABOOKS Vietnam",
+        "vi": "WABOOKS Vietnam"
+    },
+    "we_cms": {
+        "en": "WeCMS",
+        "vi": "WeCMS"
+    },
+    "are_you_sure_you_want_to_delete_the_receipt": {
+        "en": "Are you sure you want to delete the receipt?",
+        "vi": "Bạn có chắc chắn muốn xóa biên lai không?"
+    },
+    "are_you_sure_you_want_to_delete_the_attachment?": {
+        "en": "Are you sure you want to delete the attachment?",
+        "vi": "Bạn có chắc chắn muốn xóa tệp đính kèm không?"
+    },
+    "are_you_sure_you_want_to_log_out": {
+        "en": "Are you sure you want to log out?",
+        "vi": "Bạn đã chắc chắn muốn thoát ra?"
+    },
+    "new_version_avaiable": {
+        "en": "New version available",
+        "vi": "Bản cập nhật mới nhất"
+    },
+    "Select_Company": {
+        "en": "Select Company",
+        "vi": " chọn công ty"
+    },
+    "there_is_no_available_spending_method_please_contact_your_company_administrator": {
+        "en": "There is no available spending method \nPlease contact your company administrator",
+        "vi": "Phương thức thanh toán này hiện chưa được hỗ trợ \nVui lòng liên hệ với Quản trị viên Công ty của bạn"
+    },
+    "favorite": {
+        "en": "Favorite",
+        "vi": "Yêu thích"
+    },
+    "all": {
+        "en": "All",
+        "vi": "Tất cả"
+    },
+    "direct_input": {
+        "en": "Direct Input",
+        "vi": "Nhập trực tiếp"
+    },
+    "link_e_invoice": {
+        "en": "Link e-Invoice",
+        "vi": "Liên kết Hóa đơn điện tử"
+    },
+    "e_invoice": {
+        "en": "e-Invoice",
+        "vi": "Hóa đơn điện tử"
+    },
+    "linked": {
+        "en": "Linked",
+        "vi": "Đã được liên kết"
+    },
+    "link_status": {
+        "en": "Link Status",
+        "vi": "Trạng thái liên kết"
+    },
+    "e_invoice_not_found_for_matching_this_expense": {
+        "en": "e-Invoice not found for matching this expense",
+        "vi": "Không tìm thấy hóa đơn điện tử để khớp với chi phí này"
+    },
+    "there_is_no_contacts_created_yet": {
+        "en": "There is no contacts created yet",
+        "vi": "Chưa có liên hệ nào được tạo"
+    },
+    "invoice": {
+        "en": "e-Invoice No.",
+        "vi": "Hóa đơn"
+    },
+    "search_names": {
+        "en": "Name",
+        "vi": "Tên"
+    },
+    "company": {
+        "en": "Company",
+        "vi": "Công ty"
+    },
+    "company_tax_info": {
+        "en": "Company Profile",
+        "vi": "Thông tin Công ty"
+    },
+    "commented_on_your_post_000": {
+        "en": "commented on your post: %@",
+        "vi": "đã bình luận vào bài đăng của bạn: %@"
+    },
+    "request_an_expense_approval_000": {
+        "en": "request an expense approval of %@",
+        "vi": "gửi yêu cầu phê duyệt chi phí %@"
+    },
+    "approved_your_expense_approval_request_000": {
+        "en": "approved your expense approval request: %@",
+        "vi": "đã đồng ý phê duyệt chi phí bạn yêu cầu %@"
+    },
+    "reject_your_expense_approval_request_000": {
+        "en": "reject your expense approval request: %@",
+        "vi": "từ chối phê duyệt chi phí bạn yêu cầu %@"
+    },
+    "request_an_approval_000": {
+        "en": "request an approval: %@",
+        "vi": "đã gửi một phê duyệt %@"
+    },
+    "posted_an_article_000": {
+        "en": "posted an article: %@",
+        "vi": "đã đăng tải một bài viết: %@"
+    },
+    "approved_your_approval_request_000": {
+        "en": "approved your approval request: %@",
+        "vi": "đã chấp nhận yêu cầu phê duyệt của bạn %@"
+    },
+    "content_is_required": {
+        "en": "Description must not be empty.",
+        "vi": "Mô tả không được để trống"
+    },
+    "Must_select_approver_to_post": {
+        "en": "Must select approver to post",
+        "vi": "Bạn cần chọn Người phê duyệt"
+    },
+    "Title_must_not_be_empty.": {
+        "en": "Title must not be empty.",
+        "vi": "Tiêu đề không được để trống"
+    },
+    "new_article": {
+        "en": "New article",
+        "vi": "Bài đăng mới"
+    },
+    "simple_approval": {
+        "en": "Simple approval",
+        "vi": "Yêu cầu đơn giản"
+    },
+    "expense_approval": {
+        "en": "Expense Approval",
+        "vi": "Phê duyệt chi phí"
+    },
+    "approval": {
+        "en": "Approval",
+        "vi": "Yêu cầu phê duyệt"
+    },
+    "title": {
+        "en": "Title",
+        "vi": "Tiêu đề"
+    },
+    "post_as_public": {
+        "en": "Post as public",
+        "vi": "Đăng tải công khai"
+    },
+    "toggle_off_will_post_as_private": {
+        "en": "Toggle off will post as private",
+        "vi": "Tắt để đăng ở chế độ riêng tư"
+    },
+    "mark_as_important": {
+        "en": "Mark as important",
+        "vi": "Đánh dấu quan trọng"
+    },
+    "pin_the_post_until_specific_date": {
+        "en": "Pin the post until specific date",
+        "vi": "Đến ngày tháng cụ thể"
+    },
+    "save_as_draft?": {
+        "en": "Save as draft?",
+        "vi": "Lưu thành bản nháp?"
+    },
+    "draft_lets_you_edit_your_post_later_or_tap_discard_to_cancel_posting.": {
+        "en": "Draft lets you edit your post later or tap Discard to cancel posting.",
+        "vi": "Bạn có thể chỉnh sửa bản nháp sau đó đăng tải hoặc nhấn chọn Hủy để hủy đăng tải."
+    },
+    "save_draft": {
+        "en": "Save Draft",
+        "vi": "Lưu bản nháp"
+    },
+    "keep_writing": {
+        "en": "Keep writing",
+        "vi": "Tiếp tục soạn thảo"
+    },
+    "saved_to_draft!": {
+        "en": "Saved to draft!",
+        "vi": "Đã lưu thành bản nháp!"
+    },
+    "you_can_find_draft_post_in_the_board_draft": {
+        "en": "You can find draft post in the board -> Draft",
+        "vi": "Bạn có thể tìm bản nháp trong bảng tin -> Lưu nháp"
+    },
+    "switch_to_simple_approval?": {
+        "en": "Switch to Simple Approval?",
+        "vi": "Bạn muốn chuyển sang\nYêu cầu đơn giản?"
+    },
+    "switch_to_expenses_approval?": {
+        "en": "Switch to Expenses Approval?",
+        "vi": "Bạn muốn chuyển sang\nPhê duyệt chi phí?"
+    },
+    "your_current_writings_will_be_unsaved.": {
+        "en": "Your current writings will be unsaved.",
+        "vi": "Bài viết hiện tại sẽ không được lưu."
+    },
+    "max_200_characters": {
+        "en": "(max. 200 characters)",
+        "vi": "(tối đa 200 ký tự)"
+    },
+    "requestor": {
+        "en": "Requestor",
+        "vi": "Người yêu cầu"
+    },
+    "approvers": {
+        "en": "Approvers",
+        "vi": "Người phê duyệt"
+    },
+    "request": {
+        "en": "Request",
+        "vi": "Yêu cầu"
+    },
+    "document_no.": {
+        "en": "Document No.",
+        "vi": "Số Giấy tờ"
+    },
+    "requested": {
+        "en": "Requested",
+        "vi": "Ngày đăng ký"
+    },
+    "scheduled": {
+        "en": "Scheduled",
+        "vi": "Hạn duyệt"
+    },
+    "schedule": {
+        "en": "Schedule",
+        "vi": "Hạn duyệt"
+    },
+    "total_amount": {
+        "en": "Total Amount",
+        "vi": "Tổng tiền"
+    },
+    "expenses": {
+        "en": "Expenses",
+        "vi": "Chi phí"
+    },
+    "select_approvers": {
+        "en": "Select Approvers",
+        "vi": "Chọn Người phê duyệt"
+    },
+    "search_by_name_or_id": {
+        "en": "Search by name or ID",
+        "vi": "Tìm kiếm theo tên hoặc ID"
+    },
+    "add_manually": {
+        "en": "Add manually",
+        "vi": "Thêm trực tiếp"
+    },
+    "select_expenses": {
+        "en": "Select Expenses",
+        "vi": "Chọn các chi phí"
+    },
+    "pending_for_approval": {
+        "en": "Pending for Approval",
+        "vi": "Đang chờ phê duyệt"
+    },
+    "save_to_gallery": {
+        "en": "Save to gallery",
+        "vi": "Lưu vào thư viện"
+    },
+    "save_to_files": {
+        "en": "Save to files",
+        "vi": "Lưu vào kho tập tin"
+    },
+    "bill": {
+        "en": "Bill",
+        "vi": "Bill"
+    },
+    "search_by_name,_number_&_amount": {
+        "en": "Search by name, number & amount",
+        "vi": "Tìm kiếm theo tên, số lượng và số tiền"
+    },
+    "discard": {
+        "en": "Discard",
+        "vi": "Hủy"
+    },
+    "switch_now": {
+        "en": "Switch now",
+        "vi": "Thay đổi bây giờ"
+    },
+    "post": {
+        "en": "Post",
+        "vi": "Đăng"
+    },
+    "Unread": {
+        "en": "Unread",
+        "vi": "Chưa đọc"
+    },
+    "Read_all": {
+        "en": "Read all",
+        "vi": "Đọc tất cả"
+    },
+    "switch_to_bill?": {
+        "en": "Switch to Bill?",
+        "vi": "Chuyển sang Bill?"
+    },
+    "switch_to_receipt?": {
+        "en": "Switch to Receipt?",
+        "vi": "Chuyển sang Biên lai?"
+    },
+    "your_current_selection_will_not_be_saved.": {
+        "en": "Your current selection will not be saved.",
+        "vi": "Lựa chọn hiện tại sẽ không được lưu."
+    },
+    "boards": {
+        "en": "Boards",
+        "vi": "Bảng tin"
+    },
+    "approvals": {
+        "en": "Approvals",
+        "vi": "Yêu cầu phê duyệt"
+    },
+    "board_title": {
+        "en": "Board title",
+        "vi": "Tên bảng tin"
+    },
+    "description_optional": {
+        "en": "Description (optional)",
+        "vi": "Mô tả"
+    },
+    "board_members": {
+        "en": "Board members",
+        "vi": "Thành viên"
+    },
+    "create": {
+        "en": "Create",
+        "vi": "Tạo"
+    },
+    "edit_board": {
+        "en": "Edit board",
+        "vi": "Chỉnh sửa bảng tin"
+    },
+    "member": {
+        "en": "Member",
+        "vi": "Thành viên"
+    },
+    "admin": {
+        "en": "Admin",
+        "vi": "Quản trị viên"
+    },
+    "me": {
+        "en": "(Me)",
+        "vi": "(Tôi)"
+    },
+    "invite_members": {
+        "en": "Invite members",
+        "vi": "Mời thành viên"
+    },
+    "add_as_admin": {
+        "en": "Add as admin",
+        "vi": "Thêm quản trị viên"
+    },
+    "you_don't_have_any_members": {
+        "en": "You don't have any members",
+        "vi": "Chưa có thành viên nào"
+    },
+    "tap_on_the_paper_plane_button_to_invite": {
+        "en": "Tap on the Paper plane button \nto invite.",
+        "vi": "Nhấn vào biểu tượng `máy bay giấy` để mời tham gia."
+    },
+    "add_member": {
+        "en": "Add member",
+        "vi": "Thêm thành viên"
+    },
+    "leave_board": {
+        "en": "Leave board",
+        "vi": "Rời khỏi bảng tin"
+    },
+    "Edit_post": {
+        "en": "Edit post",
+        "vi": "Chỉnh sửa"
+    },
+    "Delete_post": {
+        "en": "Delete post",
+        "vi": "Xóa"
+    },
+    "Delete": {
+        "en": "Delete",
+        "vi": "Xóa"
+    },
+    "This_action_can’t_be_undone": {
+        "en": "This action can't be undone.",
+        "vi": "Bạn sẽ không thể khôi phục sau khi xóa."
+    },
+    "Don't_delete": {
+        "en": "Don't delete",
+        "vi": "Không xóa"
+    },
+    "Continue": {
+        "en": "Continue",
+        "vi": "Tiếp tục"
+    },
+    "Edit_Article": {
+        "en": "Edit Article",
+        "vi": "Chỉnh sửa bài đăng"
+    },
+    "Remove": {
+        "en": "Remove",
+        "vi": "Xóa"
+    },
+    "Assign_admin_before_you_leave": {
+        "en": "Assign admin before you leave",
+        "vi": "Chỉ định quản trị viên trước khi rời đi"
+    },
+    "You_are_the_last_admin_Please_assign_a_new_admin_to_keep_this_board.": {
+        "en": "You are the last admin. Please assign a new admin to keep this board.",
+        "vi": "Bạn là quản trị viên duy nhất còn lại trong News Group. Bạn cần mời và chỉ định một quản trị viên thay thế để tiếp tục duy trì nhóm sau khi bạn rời khỏi nhóm."
+    },
+    "Assign_an_admin": {
+        "en": "Assign an admin",
+        "vi": "Chỉ định quản trị viên"
+    },
+    "Do_you_want_to_leave_this_board": {
+        "en": "Do you want to leave this board?",
+        "vi": "Bạn sẽ rời khỏi đây?"
+    },
+    "You_will_no_longer_be_able_to_access_this_board_but_you_can_still_come_back_through_invitation.": {
+        "en": "You will no longer be able to access this board, but you can still come back through invitation.",
+        "vi": "Sau khi rời khỏi, bạn sẽ không thể truy cập lại bảng tin này nhưng vẫn có thể trở lại thông qua lời mời của thành viên khác."
+    },
+    "You_removed_the_admin": {
+        "en": "You removed the admin.",
+        "vi": "Bạn đã xóa một quản trị viên"
+    },
+    "Don’t_leave": {
+        "en": "Don’t leave",
+        "vi": "Không rời khỏi đây"
+    },
+    "Confirm_to_remove": {
+        "en": "Confirm to remove",
+        "vi": "Xác nhận xóa"
+    },
+    "will_no_longer_see_your_post_and_access_to_this_board": {
+        "en": "will no longer see your post and access to this board.",
+        "vi": "sẽ không còn quyền truy cập đến Bảng tin này và nhìn thấy bài đăng của bạn nữa."
+    },
+    "Remove_Name": {
+        "en": "Remove %@",
+        "vi": "Xóa %@"
+    },
+    "Don't_remove": {
+        "en": "Don't remove",
+        "vi": "Không xóa"
+    },
+    "Downgrade": {
+        "en": "Downgrade",
+        "vi": "Downgrade"
+    },
+    "Downgrade_to_member": {
+        "en": "Downgrade to member",
+        "vi": "Downgrade to member"
+    },
+    "will_no_longer_be_an_admin_and_will_become_a_member_of_this_board": {
+        "en": "%@ will no longer be an admin and will become a member of this board.",
+        "vi": "%@ will no longer be an admin and will become a member of this board."
+    },
+    "Don't_downgrade": {
+        "en": "Don't downgrade",
+        "vi": "Don't downgrade"
+    },
+    "Confirm_downgrade": {
+        "en": "Confirm downgrade",
+        "vi": "Confirm downgrade"
+    },
+    "You_have_left_the_board": {
+        "en": "You have left the board.",
+        "vi": "Bạn đã rời khỏi bảng tin"
+    },
+    "We_are_sorry_to_see_you_go_You_can_always_come_back_again_through_an_invitation.": {
+        "en": "We are sorry to see you go. You can always come back again through an invitation.",
+        "vi": "Bạn vẫn luôn có thể trở lại thông qua lời mời từ các thành viên khác."
+    },
+    "has_been_removed_by_you_You_can_always_have_them_back_through_invitation": {
+        "en": "as been removed by you. You can always have them back through invitation.",
+        "vi": "đã bị bạn xóa. Bạn vẫn có thể mời họ quay trở lại đây."
+    },
+    "Select_a_new_admin": {
+        "en": "Select a new admin",
+        "vi": "Chọn một quản trị viên mới"
+    },
+    "Assign_&_Leave": {
+        "en": "Assign & Leave",
+        "vi": "Chỉ định & Rời đi"
+    },
+    "This_action_can't_be_undone": {
+        "en": "This action can't be undone.",
+        "vi": "Bạn sẽ không thể khôi phục sau khi xóa."
+    },
+    "Delete_draft": {
+        "en": "Delete draft",
+        "vi": "Xóa bản nháp"
+    },
+    "Edit_Draft": {
+        "en": "Edit draft",
+        "vi": "Chỉnh sửa bản nháp"
+    },
+    "Delete_Draft": {
+        "en": "Delete draft",
+        "vi": "Xóa bản nháp"
+    },
+    "Edit_Simple_Approval": {
+        "en": "Edit Simple Approval",
+        "vi": "Chỉnh sửa Yêu cầu đơn giản"
+    },
+    "Edit_Expenses_Approval": {
+        "en": "Edit Expenses Approval",
+        "vi": "Chỉnh sửa Yêu cầu đơn giản"
+    },
+    "date_filter": {
+        "en": "Date filter",
+        "vi": "Lọc ngày tháng"
+    },
+    "last_1_month": {
+        "en": "Last 1 month",
+        "vi": "1 tháng trước"
+    },
+    "last_3_months": {
+        "en": "Last 3 months",
+        "vi": "3 tháng trước"
+    },
+    "last_6_months": {
+        "en": "Last 6 months",
+        "vi": "6 tháng trước"
+    },
+    "filter_manually": {
+        "en": "Filter manually",
+        "vi": "Lọc tùy ý"
+    },
+    "from_date": {
+        "en": "From date",
+        "vi": "Từ ngày"
+    },
+    "to_date": {
+        "en": "To date",
+        "vi": "Đến ngày"
+    },
+    "don't_switch": {
+        "en": "Don't switch",
+        "vi": "Không chuyển đổi"
+    },
+    "This_post_has_been_deleted": {
+        "en": "This post has been deleted",
+        "vi": "Bài đăng này đã được xóa."
+    },
+    "The_owner_of_this_post_has_removed_or_edited_the_post": {
+        "en": "The owner of this post has removed or edited the post.",
+        "vi": "Người viết đã xóa hoặc chỉnh sửa bài đăng này."
+    },
+    "all_posts": {
+        "en": "All posts",
+        "vi": "Tất cả bài đăng"
+    },
+    "draft": {
+        "en": "Draft",
+        "vi": "Bản nháp"
+    },
+    "article": {
+        "en": "Article",
+        "vi": "Bài đăng"
+    },
+    "Edit_Comment": {
+        "en": "Edit Comment",
+        "vi": "Chỉnh sửa bình luận"
+    },
+    "Delete_Comment": {
+        "en": "Delete Comment",
+        "vi": "Xóa bình luận"
+    },
+    "Add_a_comment": {
+        "en": "Add a comment...",
+        "vi": "Viết bình luận..."
+    },
+    "pending": {
+        "en": "Pending",
+        "vi": "Đang chờ"
+    },
+    "progress": {
+        "en": "Progress",
+        "vi": "Đang tiến hành"
+    },
+    "rejected": {
+        "en": "Rejected",
+        "vi": "Đã từ chối"
+    },
+    "reject": {
+        "en": "Reject",
+        "vi": "Từ chối"
+    },
+    "completed": {
+        "en": "Completed",
+        "vi": "Hoàn thành"
+    },
+    "approved": {
+        "en": "Approved",
+        "vi": "Đã phê duyệt"
+    },
+    "comments": {
+        "en": "comments",
+        "vi": "Bình luận"
+    },
+    "comment": {
+        "en": "comment",
+        "vi": "Bình luận"
+    },
+    "public": {
+        "en": "Public",
+        "vi": "Công khai"
+    },
+    "private": {
+        "en": "Private",
+        "vi": "Riêng tư"
+    },
+    "No_responses_yet": {
+        "en": "No responses yet.",
+        "vi": "Chưa có phản hồi nào"
+    },
+    "Be_the_first_person_to_respond": {
+        "en": "Be the first person to respond.",
+        "vi": "Hãy để lại phản hồi đầu tiên tại đây."
+    },
+    "h": {
+        "en": "h",
+        "vi": "giờ"
+    },
+    "m": {
+        "en": "min",
+        "vi": "phút"
+    },
+    "s": {
+        "en": "s",
+        "vi": "giây"
+    },
+    "pinned": {
+        "en": "Pinned",
+        "vi": "Đã ghim"
+    },
+    "Approve": {
+        "en": "Approve",
+        "vi": "Phê duyệt"
+    },
+    "Rejected": {
+        "en": "Rejected",
+        "vi": "Đã từ chối"
+    },
+    "show_more": {
+        "en": "Show more",
+        "vi": "Xem thêm"
+    },
+    "show_less": {
+        "en": "Show less",
+        "vi": "Thu gọn"
+    },
+    "No_post_yet": {
+        "en": "No post yet ",
+        "vi": "Chưa có bài đăng nào"
+    },
+    "Click_+_button_to_create_new_one": {
+        "en": "Tap + button to create one",
+        "vi": "Nhấn nút + để tạo bài viết mới"
+    },
+    "quick_results": {
+        "en": "Quick results",
+        "vi": "Kết quả nhanh"
+    },
+    "Permissopn_has_been_denied": {
+        "en": "Permission has been denied.",
+        "vi": "Yêu cầu quyền truy cập đã bị từ chối."
+    },
+    "You_do_not_have_the_permission_to_view_this_post": {
+        "en": "You do not have the permission to view this post. Please contact the bulletin board administrator. ",
+        "vi": "Bạn không có quyền xem bài đăng này. Vui lòng liên hệ với quản trị viên của bảng tin này."
+    },
+    "you_don't_have_any_bill.": {
+        "en": "You don't have any bill",
+        "vi": "Chưa có bill nào"
+    },
+    "bill_are_add_in_the_WABOOKS_web.": {
+        "en": "Bill are add in the WABOOKS web.",
+        "vi": "Bill được thêm vào WABOOKS web."
+    },
+    "you_don't_have_any_receipts.": {
+        "en": "You don't have any receipts",
+        "vi": "Chưa có biên lai nào"
+    },
+    "add_receipt_by_manually_below.": {
+        "en": "Add receipt by manually below.",
+        "vi": "Thêm biên lai vào dưới đây"
+    },
+    "Description": {
+        "en": "Description",
+        "vi": "Mô tả"
+    },
+    "second": {
+        "en": "s",
+        "vi": "giây"
+    },
+    "min": {
+        "en": "min",
+        "vi": "phút"
+    },
+    "hour": {
+        "en": "h",
+        "vi": "giờ "
+    },
+    "incorrect_email_address_format": {
+        "en": "Incorrect email address format.\nPlease check again.",
+        "vi": "Định dạng địa chỉ email không hợp lệ.\nVui lòng kiểm tra lại."
+    },
+    "New": {
+        "en": "New",
+        "vi": "Mới"
+    },
+    "Company": {
+        "en": "Company",
+        "vi": "Công ty"
+    },
+    "Address": {
+        "en": "Address",
+        "vi": "Địa chỉ"
+    },
+    "Tax ID": {
+        "en": "Tax ID",
+        "vi": "Mã số thuế"
+    },
+    "Tel": {
+        "en": "Tel",
+        "vi": "Điện thoại"
+    },
+    "Email": {
+        "en": "Email",
+        "vi": "Email"
+    },
+    "Select_More_Photos": {
+        "en": "Select More Photos...",
+        "vi": "Chọn thêm ảnh..."
+    },
+    "filter": {
+        "en": "Filter",
+        "vi": "Lọc"
+    },
+    "select_purpose": {
+        "en": "Select Purpose",
+        "vi": "Chọn Mục đích"
+    },
+    "see_more": {
+        "en": "See more",
+        "vi": "Xem thêm"
+    },
+    "add_other_expense": {
+        "en": "Add other expense",
+        "vi": "Bạn có muốn thêm chi phí khác không"
+    },
+    "add_other_expense?": {
+        "en": "Add other expense?",
+        "vi": "Thêm chi phí khác?"
+    },
+    "other_expense": {
+        "en": "Other Expense",
+        "vi": "Chi phí khác"
+    },
+    "select_purpose_account": {
+        "en": "Select Purpose/Account",
+        "vi": "Chọn Mục đích/Tài khoản"
+    },
+    "select_contact": {
+        "en": "Select Contact",
+        "vi": "Lựa chọn Liên hệ"
+    },
+    "until": {
+        "en": "Until ",
+        "vi": "Đến "
+    },
+    "until_specific_date": {
+        "en": "Until specific date",
+        "vi": "Đến ngày tháng cụ thể"
+    },
+    "delete_expense?": {
+        "en": "Delete expense?",
+        "vi": "Bạn có muốn Xóa chi phí này không?"
+    },
+    "this_action_cannot_be_undone.": {
+        "en": "This action cannot be undone.",
+        "vi": "Hành động này không thể được hoàn tác."
+    },
+    "forever": {
+        "en": "Forever",
+        "vi": "Mãi mãi"
+    },
+    "until_forever": {
+        "en": "Until forever",
+        "vi": "Cho đến mãi mãi"
+    },
+    "save_permanently": {
+        "en": "Save permanently",
+        "vi": "Lưu vô thời hạn"
+    },
+    "save_per": {
+        "en": "Save ",
+        "vi": "Lưu "
+    },
+    "permanently": {
+        "en": "permanently",
+        "vi": "vô thời hạn"
+    },
+    "E_invoice": {
+        "en": "E-Invoice",
+        "vi": "Hóa đơn điện tử"
+    },
+    "Switch_to_E_invoice?": {
+        "en": "Switch to E-invoice?",
+        "vi": "Bạn có muốn chuyển đổi sang E-invoice không?"
+    },
+    "you_don't_have_any_e-invoice": {
+        "en": "You don't have any e-invoice.",
+        "vi": "Chưa có Hóa đơn điện tử nào"
+    },
+    "e-invoice_can_be_added_from_the_WABOOKS_web": {
+        "en": "E-invoice can be added from the WABOOKS web.",
+        "vi": "Hóa đơn điện tử được thêm vào WABOOKS web."
+    },
+    "Approved": {
+        "en": "Approved",
+        "vi": "Đã đồng ý"
+    },
+    "rejected_the_request": {
+        "en": "Rejected the request.",
+        "vi": "Đã từ chối yêu cầu"
+    },
+    "approved_the_request": {
+        "en": "Approved the request.",
+        "vi": "Đã đồng ý yêu cầu."
+    },
+    "completed_the_request": {
+        "en": "Completed the request.",
+        "vi": "Đã Hoàn thành yêu cầu"
+    },
+    "completed_request": {
+        "en": "Completed",
+        "vi": "Đã Hoàn thành"
+    },
+    "approved_request": {
+        "en": "Approved",
+        "vi": "Đã đồng ý"
+    },
+    "rejected_request": {
+        "en": "Rejected",
+        "vi": "Đã từ chối"
+    },
+    "waiting_first_approver": {
+        "en": "Waiting first approver",
+        "vi": "Đang chờ Người phê duyệt đầu"
+    },
+    "waiting_second_approver": {
+        "en": "Waiting second approver",
+        "vi": "Đang chờ Người phê duyệt thứ 2"
+    },
+    "waiting_third_approver": {
+        "en": "Waiting third approver",
+        "vi": "Đang chờ Người phê duyệt thứ 3"
+    },
+    "unable_to_approve": {
+        "en": "Unable to Approve",
+        "vi": "Chưa thể phê duyệt"
+    }
+}

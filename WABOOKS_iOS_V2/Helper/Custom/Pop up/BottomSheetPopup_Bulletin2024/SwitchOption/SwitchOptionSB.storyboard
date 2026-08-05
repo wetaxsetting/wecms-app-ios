@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Inter-Bold.ttf">
+            <string>Inter-Bold</string>
+        </array>
+        <array key="Inter-Medium.ttf">
+            <string>Inter-Medium</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Switch OptionVC-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="SwitchOptionVC" id="Y6W-OH-hqX" customClass="SwitchOptionVC" customModule="WABOOKS_iOS_V2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Switch to Expenses Approval? dfasdfasdfadfaadgfasdgfdgergqweqrwgq3rwgfqrwfw" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DsI-Ya-IuB">
+                                <rect key="frame" x="20" y="75" width="353" height="80"/>
+                                <fontDescription key="fontDescription" name="Inter-Bold" family="Inter" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your current writings will be unsaved." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kw0-3u-1gD">
+                                <rect key="frame" x="20" y="161" width="353" height="19.666666666666657"/>
+                                <fontDescription key="fontDescription" name="Inter-Medium" family="Inter" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" scrollEnabled="NO" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="eHy-td-4gB">
+                                <rect key="frame" x="0.0" y="180.66666666666669" width="393" height="671.33333333333326"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="SwitchOptionCell" id="KPB-RM-4NS" customClass="SwitchOptionCell" customModule="WABOOKS_iOS_V2" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="50" width="393" height="63"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="KPB-RM-4NS" id="4cm-dR-4WS">
+                                            <rect key="frame" x="0.0" y="0.0" width="393" height="63"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Kze-i7-htc">
+                                                    <rect key="frame" x="20" y="10" width="353" height="48"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Switch now" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tDN-wC-n4u">
+                                                            <rect key="frame" x="0.0" y="0.0" width="353" height="48"/>
+                                                            <fontDescription key="fontDescription" name="Inter-Medium" family="Inter" pointSize="16"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                            <userDefinedRuntimeAttributes>
+                                                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                    <real key="value" value="10"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                            </userDefinedRuntimeAttributes>
+                                                        </label>
+                                                    </subviews>
+                                                    <color key="backgroundColor" red="0.92549019607843142" green="0.93725490196078431" blue="0.94509803921568625" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="48" id="BzQ-f8-j0P"/>
+                                                        <constraint firstAttribute="trailing" secondItem="tDN-wC-n4u" secondAttribute="trailing" id="Lf6-Lm-J0c"/>
+                                                        <constraint firstItem="tDN-wC-n4u" firstAttribute="leading" secondItem="Kze-i7-htc" secondAttribute="leading" id="Xlr-7j-T7s"/>
+                                                        <constraint firstAttribute="bottom" secondItem="tDN-wC-n4u" secondAttribute="bottom" id="ga1-3U-TJT"/>
+                                                        <constraint firstItem="tDN-wC-n4u" firstAttribute="top" secondItem="Kze-i7-htc" secondAttribute="top" id="svh-JO-pxO"/>
+                                                    </constraints>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                            <real key="value" value="10"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                    </userDefinedRuntimeAttributes>
+                                                </view>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="Kze-i7-htc" secondAttribute="trailing" constant="20" id="81B-C8-uAI"/>
+                                                <constraint firstAttribute="bottom" secondItem="Kze-i7-htc" secondAttribute="bottom" constant="5" id="OiR-rG-ByL"/>
+                                                <constraint firstItem="Kze-i7-htc" firstAttribute="leading" secondItem="4cm-dR-4WS" secondAttribute="leading" constant="20" id="h7p-eo-SXb"/>
+                                                <constraint firstItem="Kze-i7-htc" firstAttribute="top" secondItem="4cm-dR-4WS" secondAttribute="top" constant="10" id="rRV-lO-rKe"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="backView" destination="Kze-i7-htc" id="p8w-i0-J0l"/>
+                                            <outlet property="titleLabel" destination="tDN-wC-n4u" id="QBw-uD-qRB"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="eHy-td-4gB" firstAttribute="top" secondItem="Kw0-3u-1gD" secondAttribute="bottom" id="75L-ze-YvJ"/>
+                            <constraint firstItem="eHy-td-4gB" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="7pQ-pv-5k4"/>
+                            <constraint firstItem="DsI-Ya-IuB" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="8I7-ZX-8zA"/>
+                            <constraint firstAttribute="bottom" secondItem="eHy-td-4gB" secondAttribute="bottom" id="IER-T0-CiD"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="DsI-Ya-IuB" secondAttribute="trailing" constant="20" id="UAY-aG-6AL"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="Kw0-3u-1gD" secondAttribute="trailing" constant="20" id="UeJ-JN-zkK"/>
+                            <constraint firstItem="DsI-Ya-IuB" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="16" id="VkQ-Hi-d41"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="eHy-td-4gB" secondAttribute="trailing" id="acb-hD-FXj"/>
+                            <constraint firstItem="Kw0-3u-1gD" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="msU-wY-yFb"/>
+                            <constraint firstItem="Kw0-3u-1gD" firstAttribute="top" secondItem="DsI-Ya-IuB" secondAttribute="bottom" constant="6" id="qSY-7h-IPt"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="descriptionLabel" destination="Kw0-3u-1gD" id="kOF-Iu-szg"/>
+                        <outlet property="tableView" destination="eHy-td-4gB" id="OXl-ss-4Ed"/>
+                        <outlet property="titleLabel" destination="DsI-Ya-IuB" id="sib-uJ-4t0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="138" y="4"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

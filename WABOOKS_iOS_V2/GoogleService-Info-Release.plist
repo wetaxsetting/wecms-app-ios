@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>298480253661-cdikmt11kua3e0757nn3ejks42emphv1.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.298480253661-cdikmt11kua3e0757nn3ejks42emphv1</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>298480253661-0p0eu7qjshss80nnt33dgpj05n9iara1.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyB6aN0gNr9QVUCM30YjpMRyVHXMaU0aQ9o</string>
+	<key>GCM_SENDER_ID</key>
+	<string>298480253661</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.kosign.wabooks.mobile</string>
+	<key>PROJECT_ID</key>
+	<string>kosign-projects</string>
+	<key>STORAGE_BUCKET</key>
+	<string>kosign-projects.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:298480253661:ios:574b9b6fd09b067bd0b934</string>
+	<key>DATABASE_URL</key>
+	<string>https://kosign-projects.firebaseio.com</string>
+</dict>
+</plist>

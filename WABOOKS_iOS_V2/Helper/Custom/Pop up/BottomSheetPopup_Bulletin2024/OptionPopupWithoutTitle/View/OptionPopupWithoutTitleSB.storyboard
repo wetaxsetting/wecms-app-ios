@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Inter-Medium.ttf">
+            <string>Inter-Medium</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Option Popup Without TitleVC-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="OptionPopupWithoutTitleVC" id="Y6W-OH-hqX" customClass="OptionPopupWithoutTitleVC" customModule="WABOOKS_iOS_V2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="IbJ-oe-03A">
+                                <rect key="frame" x="0.0" y="69" width="393" height="749"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="OptionPopupWithoutTitleCell" id="NCk-ZI-SId" customClass="OptionPopupWithoutTitleCell" customModule="WABOOKS_iOS_V2" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="50" width="393" height="58"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="NCk-ZI-SId" id="1Zq-ya-aC1">
+                                            <rect key="frame" x="0.0" y="0.0" width="393" height="58"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hbr-E0-6Bv">
+                                                    <rect key="frame" x="20" y="5" width="353" height="48"/>
+                                                    <subviews>
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="add_circle_black_24dp" translatesAutoresizingMaskIntoConstraints="NO" id="xTO-M1-FaM">
+                                                            <rect key="frame" x="16" y="10" width="28" height="28"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="width" constant="28" id="1fB-IA-Wbg"/>
+                                                                <constraint firstAttribute="height" constant="28" id="yaQ-oG-wju"/>
+                                                            </constraints>
+                                                        </imageView>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add as admin" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VBl-ub-qu0">
+                                                            <rect key="frame" x="56" y="14.666666666666666" width="277" height="18.666666666666671"/>
+                                                            <fontDescription key="fontDescription" name="Inter-Medium" family="Inter" pointSize="16"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                    <color key="backgroundColor" name="MainBulletin"/>
+                                                    <constraints>
+                                                        <constraint firstItem="xTO-M1-FaM" firstAttribute="leading" secondItem="hbr-E0-6Bv" secondAttribute="leading" constant="16" id="1BD-Ov-v9H"/>
+                                                        <constraint firstAttribute="bottom" secondItem="xTO-M1-FaM" secondAttribute="bottom" constant="10" id="3n8-F6-0wb"/>
+                                                        <constraint firstAttribute="trailing" secondItem="VBl-ub-qu0" secondAttribute="trailing" constant="20" id="6ng-PL-8sH"/>
+                                                        <constraint firstItem="xTO-M1-FaM" firstAttribute="top" secondItem="hbr-E0-6Bv" secondAttribute="top" constant="10" id="DMR-zm-WsL"/>
+                                                        <constraint firstItem="VBl-ub-qu0" firstAttribute="leading" secondItem="xTO-M1-FaM" secondAttribute="trailing" constant="12" id="Kaj-WR-wnA"/>
+                                                        <constraint firstItem="VBl-ub-qu0" firstAttribute="centerY" secondItem="xTO-M1-FaM" secondAttribute="centerY" id="LfY-re-wu8"/>
+                                                        <constraint firstAttribute="height" constant="48" id="dFv-PS-eRf"/>
+                                                    </constraints>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                            <real key="value" value="10"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                    </userDefinedRuntimeAttributes>
+                                                </view>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottom" secondItem="hbr-E0-6Bv" secondAttribute="bottom" constant="5" id="H9V-zf-P7I"/>
+                                                <constraint firstItem="hbr-E0-6Bv" firstAttribute="top" secondItem="1Zq-ya-aC1" secondAttribute="top" constant="5" id="NAc-cN-Zuu"/>
+                                                <constraint firstAttribute="trailing" secondItem="hbr-E0-6Bv" secondAttribute="trailing" constant="20" id="Qar-Ia-moh"/>
+                                                <constraint firstItem="hbr-E0-6Bv" firstAttribute="leading" secondItem="1Zq-ya-aC1" secondAttribute="leading" constant="20" id="UD2-qN-G7K"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="iconImage" destination="xTO-M1-FaM" id="hag-l2-koS"/>
+                                            <outlet property="titleLabel" destination="VBl-ub-qu0" id="wVy-qs-XhV"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="Y6W-OH-hqX" id="Psq-3R-ipC"/>
+                                    <outlet property="delegate" destination="Y6W-OH-hqX" id="kbT-IX-Qey"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="IbJ-oe-03A" secondAttribute="trailing" id="59a-8J-W9e"/>
+                            <constraint firstItem="IbJ-oe-03A" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="Gna-fH-Q7V"/>
+                            <constraint firstItem="IbJ-oe-03A" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="10" id="HXf-4z-0fL"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="IbJ-oe-03A" secondAttribute="bottom" id="dfv-aL-eGb"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="IbJ-oe-03A" id="y5k-3t-eGL"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="139" y="-2"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="add_circle_black_24dp" width="26.666666030883789" height="26.666666030883789"/>
+        <namedColor name="MainBulletin">
+            <color red="0.92549019607843142" green="0.93725490196078431" blue="0.94509803921568625" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

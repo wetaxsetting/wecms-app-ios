@@ -1,0 +1,39 @@
+
+/* Class = "UITextField"; placeholder = "Enter Password"; ObjectID = "0p1-gF-S3O"; */
+"0p1-gF-S3O.placeholder" = "Enter Password";
+
+/* Class = "UILabel"; text = "Error Label"; ObjectID = "5PW-AQ-krS"; */
+"5PW-AQ-krS.text" = "Error Label";
+
+/* Class = "UILabel"; text = "Error Label"; ObjectID = "9FN-VE-1ZC"; */
+"9FN-VE-1ZC.text" = "Error Label";
+
+/* Class = "UITextField"; placeholder = "Enter ID"; ObjectID = "Asa-XS-E8V"; */
+"Asa-XS-E8V.placeholder" = "Enter ID";
+
+/* Class = "UIButton"; normalTitle = "Forget ID"; ObjectID = "Eca-WT-USt"; */
+"Eca-WT-USt.normalTitle" = "Forget ID";
+
+/* Class = "UITextField"; placeholder = "Enter ID"; ObjectID = "FcL-Br-lfM"; */
+"FcL-Br-lfM.placeholder" = "Enter ID";
+
+/* Class = "UITextField"; placeholder = "Enter Password"; ObjectID = "IN1-NA-Ugt"; */
+"IN1-NA-Ugt.placeholder" = "Enter Password";
+
+/* Class = "UIButton"; normalTitle = "Forget Password"; ObjectID = "J2m-Ex-oS8"; */
+"J2m-Ex-oS8.normalTitle" = "Forget Password";
+
+/* Class = "UIButton"; normalTitle = "Forget ID"; ObjectID = "RNY-uI-H4a"; */
+"RNY-uI-H4a.normalTitle" = "Forget ID";
+
+/* Class = "UIButton"; normalTitle = "LOG IN"; ObjectID = "RmR-0U-3xW"; */
+"RmR-0U-3xW.normalTitle" = "LOG IN";
+
+/* Class = "UIButton"; normalTitle = "Forget Password"; ObjectID = "bYU-Qs-dJ6"; */
+"bYU-Qs-dJ6.normalTitle" = "Forget Password";
+
+/* Class = "UIButton"; normalTitle = "Forget ID"; ObjectID = "g51-IO-F88"; */
+"g51-IO-F88.normalTitle" = "Forget ID";
+
+/* Class = "UIButton"; normalTitle = "LOG IN"; ObjectID = "wRA-8e-wc3"; */
+"wRA-8e-wc3.normalTitle" = "LOG IN";

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Inter-Medium.ttf">
+            <string>Inter-Medium</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--InvoiceVC-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="EInvoiceVC" id="Y6W-OH-hqX" customClass="EInvoiceVC" customModule="WABOOKS_iOS_V2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vls-Hl-T9N">
+                                <rect key="frame" x="20" y="816" width="374" height="50"/>
+                                <color key="backgroundColor" red="0.65098039215686276" green="0.65098039215686276" blue="0.65098039215686276" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="LU8-ZW-11c"/>
+                                </constraints>
+                                <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Check">
+                                    <fontDescription key="titleFontDescription" name="Inter-Medium" family="Inter" pointSize="15"/>
+                                    <color key="baseForegroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="checkElePress:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="DFT-xf-R6x"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ekh-F9-Xg0" userLabel="No E-Invoice View">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="E-Invoice not found for matching this expense" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ifd-Ep-WrN">
+                                        <rect key="frame" x="67" y="430" width="280" height="36.5"/>
+                                        <fontDescription key="fontDescription" name="Inter-Medium" family="Inter" pointSize="15"/>
+                                        <color key="textColor" red="0.28627450980000002" green="0.28627450980000002" blue="0.28627450980000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="Ifd-Ep-WrN" firstAttribute="leading" secondItem="Ekh-F9-Xg0" secondAttribute="leading" constant="67" id="Tag-yd-rHx"/>
+                                    <constraint firstItem="Ifd-Ep-WrN" firstAttribute="centerY" secondItem="Ekh-F9-Xg0" secondAttribute="centerY" id="c37-ex-90e"/>
+                                    <constraint firstAttribute="trailing" secondItem="Ifd-Ep-WrN" secondAttribute="trailing" constant="67" id="spP-km-NB4"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="vls-Hl-T9N" firstAttribute="leading" secondItem="5EZ-qb-Rvc" secondAttribute="leading" constant="20" id="8a0-ky-XXh"/>
+                            <constraint firstAttribute="trailing" secondItem="Ekh-F9-Xg0" secondAttribute="trailing" id="Cxe-KT-pqe"/>
+                            <constraint firstAttribute="bottom" secondItem="Ekh-F9-Xg0" secondAttribute="bottom" id="Gr2-ZX-87G"/>
+                            <constraint firstAttribute="trailing" secondItem="vls-Hl-T9N" secondAttribute="trailing" constant="20" id="S67-6U-Daf"/>
+                            <constraint firstItem="Ekh-F9-Xg0" firstAttribute="top" secondItem="5EZ-qb-Rvc" secondAttribute="top" id="i2t-vM-wF6"/>
+                            <constraint firstItem="Ekh-F9-Xg0" firstAttribute="leading" secondItem="5EZ-qb-Rvc" secondAttribute="leading" id="ipp-c2-eJZ"/>
+                            <constraint firstAttribute="bottom" secondItem="vls-Hl-T9N" secondAttribute="bottom" constant="30" id="qOW-nQ-RUV"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="checkBtn" destination="vls-Hl-T9N" id="I68-dk-grE"/>
+                        <outlet property="lblNoEInvoice" destination="Ifd-Ep-WrN" id="Dxu-HR-m3F"/>
+                        <outlet property="viewNoEInvoice" destination="Ekh-F9-Xg0" id="BH4-a9-ZFA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="81.696428571428569"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

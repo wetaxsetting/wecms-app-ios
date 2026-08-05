@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="7Uh-q8-P1L">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Inter-Bold.ttf">
+            <string>Inter-Bold</string>
+        </array>
+        <array key="Inter-Medium.ttf">
+            <string>Inter-Medium</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--ExpenseVC-->
+        <scene sceneID="S82-ao-wB9">
+            <objects>
+                <viewController storyboardIdentifier="ExpenseVC" id="7Uh-q8-P1L" customClass="ExpenseVC" customModule="WABOOKS_iOS_V2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="EZV-Vr-2IM">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="z7n-eN-YOR">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QxI-RR-xjv">
+                                        <rect key="frame" x="67" y="430" width="280" height="36.5"/>
+                                        <string key="text">사용자로 지정된 지출방법이 없습니다. 
+회사 관리자에게 문의해주세요</string>
+                                        <fontDescription key="fontDescription" name="Inter-Medium" family="Inter" pointSize="15"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="QxI-RR-xjv" firstAttribute="leading" secondItem="z7n-eN-YOR" secondAttribute="leading" constant="67" id="DSk-E5-Xz7"/>
+                                    <constraint firstAttribute="trailing" secondItem="QxI-RR-xjv" secondAttribute="trailing" constant="67" id="cwh-N6-CpW"/>
+                                    <constraint firstItem="QxI-RR-xjv" firstAttribute="centerY" secondItem="z7n-eN-YOR" secondAttribute="centerY" id="pPk-Uz-lvA"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iXF-nZ-gdH">
+                                <rect key="frame" x="20" y="816" width="374" height="50"/>
+                                <color key="backgroundColor" red="0.0" green="0.41176470588235292" blue="0.72549019607843135" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="QUz-1g-aPk"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Inter-Bold" family="Inter" pointSize="15"/>
+                                <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Check"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="checkPress:" destination="7Uh-q8-P1L" eventType="touchUpInside" id="71E-g3-G1a"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="CqK-96-fjz"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="z7n-eN-YOR" secondAttribute="bottom" id="0Ut-i4-SHt"/>
+                            <constraint firstItem="CqK-96-fjz" firstAttribute="trailing" secondItem="z7n-eN-YOR" secondAttribute="trailing" id="0of-4C-Jah"/>
+                            <constraint firstItem="z7n-eN-YOR" firstAttribute="leading" secondItem="EZV-Vr-2IM" secondAttribute="leading" id="K1a-Pd-eDd"/>
+                            <constraint firstAttribute="bottom" secondItem="iXF-nZ-gdH" secondAttribute="bottom" constant="30" id="PnO-FJ-nfY"/>
+                            <constraint firstItem="z7n-eN-YOR" firstAttribute="top" secondItem="EZV-Vr-2IM" secondAttribute="top" id="gyi-h5-nTf"/>
+                            <constraint firstAttribute="trailing" secondItem="iXF-nZ-gdH" secondAttribute="trailing" constant="20" id="ic4-PM-TEG"/>
+                            <constraint firstItem="iXF-nZ-gdH" firstAttribute="leading" secondItem="EZV-Vr-2IM" secondAttribute="leading" constant="20" id="yW9-Dz-Gby"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="checkBtn" destination="iXF-nZ-gdH" id="5Ep-fN-n0V"/>
+                        <outlet property="noInternetView" destination="z7n-eN-YOR" id="Wmv-mp-Bb6"/>
+                        <outlet property="nodataLbl" destination="QxI-RR-xjv" id="bci-OR-WuX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FI5-Jy-rHR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1785.5072463768117" y="93.75"/>
+        </scene>
+    </scenes>
+</document>

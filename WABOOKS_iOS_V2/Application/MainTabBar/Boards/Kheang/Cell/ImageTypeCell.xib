@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ImageTypeCell" id="gTV-IL-0wX" customClass="ImageTypeCell" customModule="WABOOKS_iOS_V2" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="64" height="64"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="64" height="64"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Rectangle 4857" translatesAutoresizingMaskIntoConstraints="NO" id="vCw-kO-vls">
+                        <rect key="frame" x="0.0" y="0.0" width="64" height="64"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="64" id="1Nz-Yb-JUQ"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerAllRadius">
+                                <real key="value" value="6"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hyp-kH-OxR">
+                        <rect key="frame" x="30" y="10" width="24" height="24"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ico_bin" translatesAutoresizingMaskIntoConstraints="NO" id="LcZ-Tu-lRd">
+                                <rect key="frame" x="3" y="3" width="18" height="18"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="18" id="pL8-cz-Cq7"/>
+                                    <constraint firstAttribute="height" constant="18" id="rPL-KF-xed"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="24" id="9KK-ky-ZPf"/>
+                            <constraint firstItem="LcZ-Tu-lRd" firstAttribute="centerY" secondItem="hyp-kH-OxR" secondAttribute="centerY" id="ESX-ye-iAL"/>
+                            <constraint firstAttribute="width" constant="24" id="VOv-aM-drZ"/>
+                            <constraint firstItem="LcZ-Tu-lRd" firstAttribute="centerX" secondItem="hyp-kH-OxR" secondAttribute="centerX" id="xZZ-Y1-joP"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerAllRadius">
+                                <real key="value" value="12"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="hyp-kH-OxR" secondAttribute="trailing" constant="10" id="63D-kX-xFO"/>
+                <constraint firstItem="hyp-kH-OxR" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="10" id="64m-FO-9YN"/>
+                <constraint firstItem="vCw-kO-vls" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="9BH-uK-myn"/>
+                <constraint firstAttribute="bottom" secondItem="vCw-kO-vls" secondAttribute="bottom" id="Kp8-P4-qe1"/>
+                <constraint firstItem="vCw-kO-vls" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="P6V-FZ-5gX"/>
+                <constraint firstAttribute="trailing" secondItem="vCw-kO-vls" secondAttribute="trailing" id="lMf-Y4-5KS"/>
+            </constraints>
+            <connections>
+                <outlet property="deleteUIView" destination="hyp-kH-OxR" id="s1z-Nq-FNi"/>
+                <outlet property="img" destination="vCw-kO-vls" id="dMO-4y-Fw9"/>
+            </connections>
+            <point key="canvasLocation" x="138.93129770992365" y="19.718309859154932"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="Rectangle 4857" width="64" height="64"/>
+        <image name="ico_bin" width="28" height="28"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

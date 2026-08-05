@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="24765" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="x4a-74-qH1">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="24743"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Inter-Regular.ttf">
+            <string>Inter-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Launch ScreenVC-->
+        <scene sceneID="3V1-5k-UwU">
+            <objects>
+                <viewController storyboardIdentifier="LaunchScreenVC" id="pP4-jA-9q4" customClass="LaunchScreenVC" customModule="WABOOKS_iOS_V2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="lvZ-gO-1Ng">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wabooks" translatesAutoresizingMaskIntoConstraints="NO" id="jUw-or-EEd">
+                                <rect key="frame" x="127.5" y="473" width="159" height="32.5"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Version 1.0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jkd-yc-cpt">
+                                <rect key="frame" x="169" y="780" width="76.5" height="18"/>
+                                <fontDescription key="fontDescription" name="Inter-Regular" family="Inter" pointSize="15"/>
+                                <color key="textColor" red="0.62352941179999999" green="0.67843137249999996" blue="0.72549019609999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vlX-f2-n5B"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="jUw-or-EEd" firstAttribute="centerY" secondItem="vlX-f2-n5B" secondAttribute="centerY" id="Ghu-bM-IdO"/>
+                            <constraint firstItem="jUw-or-EEd" firstAttribute="centerX" secondItem="vlX-f2-n5B" secondAttribute="centerX" id="hhQ-4D-eGV"/>
+                            <constraint firstItem="jkd-yc-cpt" firstAttribute="centerX" secondItem="vlX-f2-n5B" secondAttribute="centerX" id="jjl-Sy-uIw"/>
+                            <constraint firstItem="vlX-f2-n5B" firstAttribute="bottom" secondItem="jkd-yc-cpt" secondAttribute="bottom" constant="30" id="xhd-vv-Skq"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="8Hc-W7-fvK"/>
+                    <connections>
+                        <outlet property="imgAppLogo" destination="jUw-or-EEd" id="dzl-d3-Kfv"/>
+                        <outlet property="lblVersion" destination="jkd-yc-cpt" id="u4c-ar-h1u"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rdL-Be-lMc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="713.04347826086962" y="3.3482142857142856"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="kFw-73-4w0">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="x4a-74-qH1" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="xlR-ww-DnS">
+                        <rect key="frame" x="0.0" y="96" width="414" height="54"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="pP4-jA-9q4" kind="relationship" relationship="rootViewController" id="Sgg-Bf-AM9"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wY9-i8-onx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-197.10144927536234" y="3.3482142857142856"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="wabooks" width="159" height="32.5"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

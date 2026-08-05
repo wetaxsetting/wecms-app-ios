@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Inter-Medium.ttf">
+            <string>Inter-Medium</string>
+        </array>
+        <array key="Inter-Regular.ttf">
+            <string>Inter-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="AttactMentsCell" rowHeight="66" id="5Ys-0m-NkR" customClass="AttactMentsCell" customModule="WABOOKS_iOS_V2" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="66"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="5Ys-0m-NkR" id="nFm-Oy-O2B">
+                <rect key="frame" x="0.0" y="0.0" width="393" height="66"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aJN-Ob-BRF">
+                        <rect key="frame" x="20" y="5" width="353" height="56"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oDP-IY-JhG">
+                                <rect key="frame" x="0.0" y="0.0" width="56" height="56"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="6296673_microsoft_office_office365_word_icon 1" translatesAutoresizingMaskIntoConstraints="NO" id="cdl-5M-1xa">
+                                        <rect key="frame" x="14" y="14" width="28" height="28"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="28" id="Cba-Jg-mwH"/>
+                                            <constraint firstAttribute="width" secondItem="cdl-5M-1xa" secondAttribute="height" multiplier="1:1" id="Lan-uI-PAV"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0" green="0.35686274509803922" blue="1" alpha="0.10000000000000001" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="56" id="K3D-uo-YxG"/>
+                                    <constraint firstItem="cdl-5M-1xa" firstAttribute="centerY" secondItem="oDP-IY-JhG" secondAttribute="centerY" id="O9e-FP-tbd"/>
+                                    <constraint firstItem="cdl-5M-1xa" firstAttribute="centerX" secondItem="oDP-IY-JhG" secondAttribute="centerX" id="PQM-ZC-qcJ"/>
+                                    <constraint firstAttribute="height" constant="56" id="u18-28-84w"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerLeftRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="QpP-Qd-eHd">
+                                <rect key="frame" x="68" y="7.9999999999999982" width="244" height="17.333333333333329"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CommDay_" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1QN-wj-jaS">
+                                        <rect key="frame" x="0.0" y="0.0" width="244" height="17.333333333333332"/>
+                                        <fontDescription key="fontDescription" name="Inter-Medium" family="Inter" pointSize="14"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="1QN-wj-jaS" secondAttribute="trailing" id="Dqs-uc-7Zv"/>
+                                </constraints>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="108.69 KB" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7as-t8-oqQ">
+                                <rect key="frame" x="68" y="27.333333333333339" width="57.333333333333343" height="14.666666666666668"/>
+                                <fontDescription key="fontDescription" name="Inter-Regular" family="Inter" pointSize="12"/>
+                                <color key="textColor" red="0.28627450980392155" green="0.28627450980392155" blue="0.28627450980392155" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="La8-Jl-0kc">
+                                <rect key="frame" x="317" y="4.6666666666666643" width="24" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="24" id="kSn-2j-hKe"/>
+                                    <constraint firstAttribute="width" constant="24" id="weq-Oo-udW"/>
+                                </constraints>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" image="ico_trash"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.92549019607843142" green="0.93725490196078431" blue="0.94509803921568625" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="oDP-IY-JhG" secondAttribute="bottom" id="98g-cN-Fed"/>
+                            <constraint firstItem="oDP-IY-JhG" firstAttribute="top" secondItem="aJN-Ob-BRF" secondAttribute="top" id="F4N-u7-LES"/>
+                            <constraint firstAttribute="trailing" secondItem="La8-Jl-0kc" secondAttribute="trailing" constant="12" id="GIr-b2-RPA"/>
+                            <constraint firstItem="La8-Jl-0kc" firstAttribute="centerY" secondItem="QpP-Qd-eHd" secondAttribute="centerY" id="IV3-5O-fsL"/>
+                            <constraint firstItem="QpP-Qd-eHd" firstAttribute="top" secondItem="aJN-Ob-BRF" secondAttribute="top" constant="8" id="NLy-TX-QHL"/>
+                            <constraint firstAttribute="height" constant="56" id="SUD-0n-d96"/>
+                            <constraint firstItem="La8-Jl-0kc" firstAttribute="leading" secondItem="QpP-Qd-eHd" secondAttribute="trailing" constant="5" id="W0c-zP-n5X"/>
+                            <constraint firstItem="7as-t8-oqQ" firstAttribute="top" secondItem="QpP-Qd-eHd" secondAttribute="bottom" constant="2" id="afU-1z-Rze"/>
+                            <constraint firstItem="La8-Jl-0kc" firstAttribute="top" secondItem="aJN-Ob-BRF" secondAttribute="top" constant="4.6666666666666643" id="d35-HF-hiA"/>
+                            <constraint firstItem="7as-t8-oqQ" firstAttribute="leading" secondItem="1QN-wj-jaS" secondAttribute="leading" id="mhS-Ua-x9v"/>
+                            <constraint firstItem="QpP-Qd-eHd" firstAttribute="leading" secondItem="oDP-IY-JhG" secondAttribute="trailing" constant="12" id="pEA-hT-tao"/>
+                            <constraint firstItem="oDP-IY-JhG" firstAttribute="leading" secondItem="aJN-Ob-BRF" secondAttribute="leading" id="qUa-WB-Xef"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="aJN-Ob-BRF" secondAttribute="bottom" constant="5" id="d8V-6Y-0Lq"/>
+                    <constraint firstItem="aJN-Ob-BRF" firstAttribute="leading" secondItem="nFm-Oy-O2B" secondAttribute="leading" constant="20" id="m1b-QI-0on"/>
+                    <constraint firstItem="aJN-Ob-BRF" firstAttribute="top" secondItem="nFm-Oy-O2B" secondAttribute="top" constant="5" id="mcW-Z3-sUr"/>
+                    <constraint firstAttribute="trailing" secondItem="aJN-Ob-BRF" secondAttribute="trailing" constant="20" id="veX-ui-BhD"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="attachMentImage" destination="cdl-5M-1xa" id="gq2-H7-G7N"/>
+                <outlet property="attachMentLabel" destination="1QN-wj-jaS" id="3ng-UE-CBX"/>
+                <outlet property="attachMentSizeLabel" destination="7as-t8-oqQ" id="y7p-bo-ZMt"/>
+                <outlet property="deleteButton" destination="La8-Jl-0kc" id="sdN-OT-0Ou"/>
+            </connections>
+            <point key="canvasLocation" x="103.05343511450381" y="-43.661971830985919"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="6296673_microsoft_office_office365_word_icon 1" width="28" height="28"/>
+        <image name="ico_trash" width="36" height="36"/>
+    </resources>
+</document>

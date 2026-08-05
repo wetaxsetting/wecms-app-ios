@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Inter-Regular.ttf">
+            <string>Inter-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="MentionMemberCell" rowHeight="63" id="uC1-MO-cVs" customClass="MentionMemberCell" customModule="WABOOKS_iOS_V2" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="434" height="63"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="uC1-MO-cVs" id="UgG-fS-8Ab">
+                <rect key="frame" x="0.0" y="0.0" width="434" height="63"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qwd-WZ-a56">
+                        <rect key="frame" x="0.0" y="0.0" width="434" height="60"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ico_user" translatesAutoresizingMaskIntoConstraints="NO" id="ldt-f5-9Ym">
+                                <rect key="frame" x="20" y="12" width="36" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="36" id="Ybg-1R-aOD"/>
+                                    <constraint firstAttribute="width" constant="36" id="ugv-ZF-Ya8"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="18"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Qh-lh-E7M">
+                                <rect key="frame" x="66" y="11.999999999999998" width="348" height="19.333333333333329"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
+                                <color key="textColor" name="MemberTitleColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vJl-sf-adE">
+                                <rect key="frame" x="66" y="31" width="348" height="17"/>
+                                <fontDescription key="fontDescription" name="Inter-Regular" family="Inter" pointSize="14"/>
+                                <color key="textColor" name="MemberEmailColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="62V-Lh-met">
+                                <rect key="frame" x="0.0" y="0.0" width="434" height="1"/>
+                                <color key="backgroundColor" name="GreyLine"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="qq6-Mk-Bvp"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="ldt-f5-9Ym" secondAttribute="bottom" constant="12" id="4No-Xj-SuL"/>
+                            <constraint firstItem="vJl-sf-adE" firstAttribute="bottom" secondItem="ldt-f5-9Ym" secondAttribute="bottom" id="ELf-mU-0Qi"/>
+                            <constraint firstAttribute="bottom" secondItem="ldt-f5-9Ym" secondAttribute="bottom" constant="12" id="HDr-0R-Pmi"/>
+                            <constraint firstItem="62V-Lh-met" firstAttribute="top" secondItem="Qwd-WZ-a56" secondAttribute="top" id="MFz-RD-Rs7"/>
+                            <constraint firstItem="ldt-f5-9Ym" firstAttribute="top" secondItem="Qwd-WZ-a56" secondAttribute="top" constant="12" id="NtP-m3-syl"/>
+                            <constraint firstItem="vJl-sf-adE" firstAttribute="leading" secondItem="ldt-f5-9Ym" secondAttribute="trailing" constant="10" id="Q73-Ee-C5A"/>
+                            <constraint firstAttribute="trailing" secondItem="62V-Lh-met" secondAttribute="trailing" id="VIM-7y-sJM"/>
+                            <constraint firstItem="9Qh-lh-E7M" firstAttribute="top" secondItem="ldt-f5-9Ym" secondAttribute="top" id="Yro-iU-5Ws"/>
+                            <constraint firstItem="ldt-f5-9Ym" firstAttribute="leading" secondItem="Qwd-WZ-a56" secondAttribute="leading" constant="20" id="gbs-D4-ED1"/>
+                            <constraint firstItem="9Qh-lh-E7M" firstAttribute="leading" secondItem="ldt-f5-9Ym" secondAttribute="trailing" constant="10" id="kPu-bq-jgQ"/>
+                            <constraint firstItem="62V-Lh-met" firstAttribute="leading" secondItem="Qwd-WZ-a56" secondAttribute="leading" id="phJ-iu-TP6"/>
+                            <constraint firstAttribute="trailing" secondItem="vJl-sf-adE" secondAttribute="trailing" constant="20" id="ycJ-CV-DC8"/>
+                            <constraint firstAttribute="trailing" secondItem="9Qh-lh-E7M" secondAttribute="trailing" constant="20" id="yxm-Gf-nCF"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="Qwd-WZ-a56" secondAttribute="trailing" id="Eri-1e-OXR"/>
+                    <constraint firstItem="Qwd-WZ-a56" firstAttribute="leading" secondItem="UgG-fS-8Ab" secondAttribute="leading" id="HT1-Uh-Vn1"/>
+                    <constraint firstItem="Qwd-WZ-a56" firstAttribute="top" secondItem="UgG-fS-8Ab" secondAttribute="top" id="eIb-7D-u5y"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="emailLabel" destination="vJl-sf-adE" id="LBR-Gp-1q5"/>
+                <outlet property="nameLabel" destination="9Qh-lh-E7M" id="w46-eh-RHr"/>
+                <outlet property="profileImage" destination="ldt-f5-9Ym" id="LXI-5U-4ih"/>
+                <outlet property="topLine" destination="62V-Lh-met" id="kuz-sg-qYO"/>
+            </connections>
+            <point key="canvasLocation" x="390.83969465648852" y="-155.98591549295776"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ico_user" width="19" height="19"/>
+        <namedColor name="GreyLine">
+            <color red="0.8666666666666667" green="0.8666666666666667" blue="0.8666666666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="MemberEmailColor">
+            <color red="0.65098039215686276" green="0.65098039215686276" blue="0.65098039215686276" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="MemberTitleColor">
+            <color red="0.10588235294117647" green="0.10588235294117647" blue="0.10588235294117647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
