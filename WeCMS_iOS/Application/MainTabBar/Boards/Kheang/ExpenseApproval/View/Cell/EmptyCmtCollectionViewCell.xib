@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Inter-Medium.ttf">
+            <string>Inter-Medium</string>
+        </array>
+        <array key="Inter-Regular.ttf">
+            <string>Inter-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="EmptyCmtCollectionViewCell" id="gTV-IL-0wX" customClass="EmptyCmtCollectionViewCell" customModule="WMobile_Ent" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="350" height="350"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="350" height="350"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Frame 427322976" translatesAutoresizingMaskIntoConstraints="NO" id="uqD-t2-1nm">
+                        <rect key="frame" x="85" y="85" width="180" height="180"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="180" id="EQr-j7-CVQ"/>
+                            <constraint firstAttribute="width" constant="180" id="djY-Ag-qpk"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No responses yet" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ph9-if-K3N">
+                        <rect key="frame" x="112" y="228" width="126" height="19"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="19" id="fzs-oU-Bzv"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Inter-Medium" family="Inter" pointSize="15"/>
+                        <color key="textColor" red="0.45993506909999998" green="0.45993512869999997" blue="0.45993512869999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Be the first to respond." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1mh-pL-pN5">
+                        <rect key="frame" x="93.666666666666686" y="254" width="163" height="19"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="19" id="z9O-QS-bgF"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Inter-Regular" family="Inter" pointSize="15"/>
+                        <color key="textColor" red="0.45993506909999998" green="0.45993512869999997" blue="0.45993512869999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="uqD-t2-1nm" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="GGf-xw-Kxp"/>
+                <constraint firstItem="1mh-pL-pN5" firstAttribute="top" secondItem="ph9-if-K3N" secondAttribute="bottom" constant="7" id="TU3-u6-KLe"/>
+                <constraint firstItem="1mh-pL-pN5" firstAttribute="centerX" secondItem="ZTg-uK-7eu" secondAttribute="centerX" id="aqG-Ko-s1h"/>
+                <constraint firstItem="ph9-if-K3N" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="nIi-m2-GWc"/>
+                <constraint firstItem="uqD-t2-1nm" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="tP4-eb-N4s"/>
+                <constraint firstItem="ph9-if-K3N" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="228" id="w6k-eM-hfE"/>
+            </constraints>
+            <connections>
+                <outlet property="subTitleLable" destination="1mh-pL-pN5" id="cBX-0z-flV"/>
+                <outlet property="titleLabel" destination="ph9-if-K3N" id="cl7-MD-ihO"/>
+            </connections>
+            <point key="canvasLocation" x="138.93129770992365" y="19.718309859154932"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="Frame 427322976" width="180" height="174.66667175292969"/>
+    </resources>
+</document>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Inter-Medium.ttf">
+            <string>Inter-Medium</string>
+        </array>
+        <array key="Inter-Regular.ttf">
+            <string>Inter-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="ApprovalDateInfoWeCMSCell" rowHeight="60" id="ioi-3W-Yc8" customClass="ApprovalDateInfoWeCMSCell" customModule="WMobile_Ent" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="60"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ioi-3W-Yc8" id="b8j-Yd-OkO">
+                <rect key="frame" x="0.0" y="0.0" width="393" height="60"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="badge_receipt" translatesAutoresizingMaskIntoConstraints="NO" id="MJa-Gq-der">
+                        <rect key="frame" x="20" y="16" width="28" height="28"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="MJa-Gq-der" secondAttribute="height" multiplier="1:1" id="KZl-9H-sFT"/>
+                            <constraint firstAttribute="height" constant="28" id="zCh-RG-nPE"/>
+                        </constraints>
+                    </imageView>
+                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="YSL-PW-RMf">
+                        <rect key="frame" x="58" y="5.6666666666666679" width="120" height="49"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="1q1-To-bHe">
+                                <rect key="frame" x="0.0" y="0.0" width="120" height="49"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Scheduled" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kGX-5i-6TU">
+                                        <rect key="frame" x="0.0" y="0.0" width="120" height="17"/>
+                                        <fontDescription key="fontDescription" name="Inter-Regular" family="Inter" pointSize="14"/>
+                                        <color key="textColor" white="0.0" alpha="0.40000000000000002" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JnR-Dk-XTf">
+                                        <rect key="frame" x="0.0" y="17" width="120" height="32"/>
+                                        <fontDescription key="fontDescription" name="Inter-Medium" family="Inter" pointSize="16"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Select">
+                                            <color key="titleColor" red="0.058823529409999999" green="0.1215686275" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="120" id="r8P-nN-bR7"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="YSL-PW-RMf" firstAttribute="centerY" secondItem="b8j-Yd-OkO" secondAttribute="centerY" id="03w-bw-rhu"/>
+                    <constraint firstItem="MJa-Gq-der" firstAttribute="centerY" secondItem="b8j-Yd-OkO" secondAttribute="centerY" id="YSg-50-WSs"/>
+                    <constraint firstItem="MJa-Gq-der" firstAttribute="leading" secondItem="b8j-Yd-OkO" secondAttribute="leading" constant="20" id="f0W-ly-X5c"/>
+                    <constraint firstItem="YSL-PW-RMf" firstAttribute="leading" secondItem="MJa-Gq-der" secondAttribute="trailing" constant="10" id="oU6-2P-mve"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="dataImageView" destination="MJa-Gq-der" id="Exx-Bb-Pa8"/>
+                <outlet property="scheduleLabel" destination="kGX-5i-6TU" id="mfQ-Iz-YdD"/>
+                <outlet property="selectDateButton" destination="JnR-Dk-XTf" id="yYv-D8-got"/>
+            </connections>
+            <point key="canvasLocation" x="138" y="20"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="badge_receipt" width="64" height="64"/>
+    </resources>
+</document>

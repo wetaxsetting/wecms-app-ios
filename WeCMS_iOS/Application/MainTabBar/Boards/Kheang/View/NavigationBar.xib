@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Inter-Bold.ttf">
+            <string>Inter-Bold</string>
+        </array>
+        <array key="Inter-Medium.ttf">
+            <string>Inter-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NavigationBar" customModule="WMobile_Ent" customModuleProvider="target">
+            <connections>
+                <outlet property="barView" destination="TKJ-nE-GOw" id="Gog-9k-6jr"/>
+                <outlet property="leftButton" destination="47d-5S-4f3" id="kei-Ia-rLn"/>
+                <outlet property="rightButton" destination="Pxs-3t-2TA" id="am2-vN-4o3"/>
+                <outlet property="subTitleLabel" destination="HHB-mJ-TDl" id="zr7-VL-cgg"/>
+                <outlet property="titleLabel" destination="kBP-mt-cwh" id="Wim-QT-srL"/>
+                <outlet property="view" destination="iN0-l3-epB" id="SYD-IW-cYT"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="67"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="47d-5S-4f3">
+                    <rect key="frame" x="20" y="19" width="28" height="28"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="28" id="lcM-av-lDo"/>
+                        <constraint firstAttribute="height" constant="28" id="qOQ-g5-Kmg"/>
+                    </constraints>
+                    <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" image="head_back_ico"/>
+                    <connections>
+                        <action selector="leftButtonPressed:" destination="-1" eventType="touchUpInside" id="M7o-H5-GeB"/>
+                    </connections>
+                </button>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Ee4-lY-sOm">
+                    <rect key="frame" x="68" y="10" width="261" height="46"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Expenses Approval" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kBP-mt-cwh">
+                            <rect key="frame" x="0.0" y="0.0" width="261" height="31.666666666666668"/>
+                            <fontDescription key="fontDescription" name="Inter-Bold" family="Inter" pointSize="18"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Document No. 00292920028" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HHB-mJ-TDl">
+                            <rect key="frame" x="0.0" y="31.666666666666661" width="261" height="14.333333333333332"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="14.33" id="lPS-4O-1qy"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Inter-Medium" family="Inter" pointSize="12"/>
+                            <color key="textColor" red="0.28627450980392155" green="0.28627450980392155" blue="0.28627450980392155" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                </stackView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pxs-3t-2TA">
+                    <rect key="frame" x="349" y="21" width="24" height="24"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="24" id="TPU-hK-YcH"/>
+                        <constraint firstAttribute="height" constant="24" id="aHP-bv-ph8"/>
+                    </constraints>
+                    <color key="tintColor" name="TfColor"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" image="ellipsis" catalog="system"/>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TKJ-nE-GOw">
+                    <rect key="frame" x="0.0" y="66" width="393" height="1"/>
+                    <color key="backgroundColor" name="GreyLine"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="ggk-NG-zUG"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="TKJ-nE-GOw" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="AWK-EI-VZG"/>
+                <constraint firstAttribute="bottom" secondItem="TKJ-nE-GOw" secondAttribute="bottom" id="DMc-kP-CV2"/>
+                <constraint firstItem="Ee4-lY-sOm" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="KdH-Ma-jYt"/>
+                <constraint firstAttribute="trailing" secondItem="TKJ-nE-GOw" secondAttribute="trailing" id="QGj-6p-5OW"/>
+                <constraint firstItem="47d-5S-4f3" firstAttribute="centerY" secondItem="Ee4-lY-sOm" secondAttribute="centerY" id="Ttb-fc-pVr"/>
+                <constraint firstItem="Pxs-3t-2TA" firstAttribute="leading" secondItem="Ee4-lY-sOm" secondAttribute="trailing" constant="20" id="XN0-1N-ts0"/>
+                <constraint firstItem="47d-5S-4f3" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="Ydf-cd-bGb"/>
+                <constraint firstItem="Pxs-3t-2TA" firstAttribute="centerY" secondItem="Ee4-lY-sOm" secondAttribute="centerY" id="cUa-tg-fMW"/>
+                <constraint firstItem="Ee4-lY-sOm" firstAttribute="leading" secondItem="47d-5S-4f3" secondAttribute="trailing" constant="20" id="lDi-jX-Dmb"/>
+                <constraint firstItem="TKJ-nE-GOw" firstAttribute="top" secondItem="Ee4-lY-sOm" secondAttribute="bottom" constant="10" id="rdB-FU-TQP"/>
+                <constraint firstAttribute="trailing" secondItem="Pxs-3t-2TA" secondAttribute="trailing" constant="20" id="zXB-PW-Svu"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="136.64122137404578" y="19.366197183098592"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ellipsis" catalog="system" width="128" height="37"/>
+        <image name="head_back_ico" width="24" height="24"/>
+        <namedColor name="GreyLine">
+            <color red="0.8666666666666667" green="0.8666666666666667" blue="0.8666666666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="TfColor">
+            <color red="0.28600001335144043" green="0.28600001335144043" blue="0.28600001335144043" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

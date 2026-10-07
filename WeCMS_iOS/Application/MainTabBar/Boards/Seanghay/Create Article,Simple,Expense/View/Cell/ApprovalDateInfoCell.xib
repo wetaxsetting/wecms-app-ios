@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Inter-Medium.ttf">
+            <string>Inter-Medium</string>
+        </array>
+        <array key="Inter-Regular.ttf">
+            <string>Inter-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="ApprovalDateInfoCell" rowHeight="60" id="VVD-Ti-9vb" customClass="ApprovalDateInfoCell" customModule="WMobile_Ent" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="60"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="VVD-Ti-9vb" id="Veo-y2-agy">
+                <rect key="frame" x="0.0" y="0.0" width="393" height="60"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="badge_receipt" translatesAutoresizingMaskIntoConstraints="NO" id="eoM-Cr-Inr">
+                        <rect key="frame" x="20" y="16" width="28" height="28"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="28" id="jSE-vq-q9Y"/>
+                            <constraint firstAttribute="width" secondItem="eoM-Cr-Inr" secondAttribute="height" multiplier="1:1" id="uAF-Eu-vdh"/>
+                        </constraints>
+                    </imageView>
+                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="ldp-wJ-3Af">
+                        <rect key="frame" x="58" y="0.0" width="322" height="60"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="ZwC-ST-KS0">
+                                <rect key="frame" x="0.0" y="0.0" width="120" height="60"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Requested" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6eS-UB-ZDT">
+                                        <rect key="frame" x="0.0" y="0.0" width="120" height="17"/>
+                                        <fontDescription key="fontDescription" name="Inter-Regular" family="Inter" pointSize="14"/>
+                                        <color key="textColor" white="0.0" alpha="0.40000000000000002" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1yr-Y7-CDb">
+                                        <rect key="frame" x="0.0" y="17" width="120" height="43"/>
+                                        <fontDescription key="fontDescription" name="Inter-Medium" family="Inter" pointSize="16"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="01-01-2024">
+                                            <color key="titleColor" red="0.058823529411764705" green="0.12156862745098039" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="120" id="yXk-b1-nwy"/>
+                                </constraints>
+                            </stackView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="c5K-IK-dvR">
+                                <rect key="frame" x="136" y="0.0" width="50" height="60"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_arrow" translatesAutoresizingMaskIntoConstraints="NO" id="bat-4C-95E">
+                                        <rect key="frame" x="16" y="29.666666666666671" width="18" height="18"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="18" id="7MB-Hz-uHz"/>
+                                            <constraint firstAttribute="width" secondItem="bat-4C-95E" secondAttribute="height" multiplier="1:1" id="Gbs-9C-gOl"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="a24-5i-e8E"/>
+                                    <constraint firstItem="bat-4C-95E" firstAttribute="centerX" secondItem="c5K-IK-dvR" secondAttribute="centerX" id="qYb-dK-0wk"/>
+                                </constraints>
+                            </view>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="ahT-aF-eRK">
+                                <rect key="frame" x="202" y="0.0" width="120" height="60"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Scheduled" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d5n-i8-6Gl">
+                                        <rect key="frame" x="0.0" y="0.0" width="120" height="17"/>
+                                        <fontDescription key="fontDescription" name="Inter-Regular" family="Inter" pointSize="14"/>
+                                        <color key="textColor" white="0.0" alpha="0.40000000000000002" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="evj-p9-NIh">
+                                        <rect key="frame" x="0.0" y="17" width="120" height="43"/>
+                                        <fontDescription key="fontDescription" name="Inter-Medium" family="Inter" pointSize="16"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Select">
+                                            <color key="titleColor" red="0.058823529411764705" green="0.12156862745098039" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="120" id="hKs-O7-JgV"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="bat-4C-95E" firstAttribute="centerY" secondItem="1yr-Y7-CDb" secondAttribute="centerY" id="fGr-MH-Nfn"/>
+                        </constraints>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="eoM-Cr-Inr" firstAttribute="leading" secondItem="Veo-y2-agy" secondAttribute="leading" constant="20" id="18H-IR-D7j"/>
+                    <constraint firstItem="ldp-wJ-3Af" firstAttribute="leading" secondItem="eoM-Cr-Inr" secondAttribute="trailing" constant="10" id="DmZ-OK-tcQ"/>
+                    <constraint firstItem="ldp-wJ-3Af" firstAttribute="centerY" secondItem="Veo-y2-agy" secondAttribute="centerY" id="kCg-6x-vDb"/>
+                    <constraint firstItem="eoM-Cr-Inr" firstAttribute="centerY" secondItem="Veo-y2-agy" secondAttribute="centerY" id="z9W-Er-H1J"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="dataImageView" destination="eoM-Cr-Inr" id="OEk-pz-VkN"/>
+                <outlet property="requestLabel" destination="6eS-UB-ZDT" id="Fja-Tl-7GS"/>
+                <outlet property="scheduleLabel" destination="d5n-i8-6Gl" id="wOQ-ra-ocY"/>
+                <outlet property="selectDateButton" destination="evj-p9-NIh" id="6QH-Wm-9Hu"/>
+                <outlet property="startDateButton" destination="1yr-Y7-CDb" id="icp-m0-pWW"/>
+            </connections>
+            <point key="canvasLocation" x="138" y="20"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="badge_receipt" width="64" height="64"/>
+        <image name="icon_arrow" width="12.666666984558105" height="10.333333015441895"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
